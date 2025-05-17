@@ -10,4 +10,4 @@ function updateLight(current) {
     return "The traffic light is off";
   }
   
-}
+} 
