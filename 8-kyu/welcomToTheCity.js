@@ -3,4 +3,3 @@ function sayHello(name, city, state){
     return `Hello, ${fullName}! Welcome to ${city}, ${state}!`;
 }
 
-
