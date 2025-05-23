@@ -12,4 +12,3 @@ function countPositivesSumNegatives(input) {
         }
     }return result;
 }
-
