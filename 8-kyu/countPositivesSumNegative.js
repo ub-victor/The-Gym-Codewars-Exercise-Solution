@@ -1,0 +1,3 @@
+function countPositivesSumNegatives(input) {
+    
+}
