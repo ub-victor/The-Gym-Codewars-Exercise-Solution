@@ -3,3 +3,7 @@ function twoSort(s) {
    let final = result[0].plit().join("***")
     return final ;
 }
+
+
+
+// const twoSort = s => s.sort()[0].split("").join("***");
