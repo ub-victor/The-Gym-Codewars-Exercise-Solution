@@ -4,3 +4,4 @@ Object.assign(me, { age: 30, country: 'Canada' }); // { username: 'JohnDoe', cou
 
 
 
+
