@@ -1,3 +1,3 @@
-function removeSpaces(str){
-    return str.replace(/\s/g, ""); 
+function repeatString(n, s){
+    
 }
