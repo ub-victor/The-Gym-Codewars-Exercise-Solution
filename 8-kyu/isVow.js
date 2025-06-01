@@ -6,3 +6,5 @@ function isVow(a){
 });
                
 }
+
+console.log(isVow([97, 98, 99, 100, 101, 5])); // ['a', 'b', 'c', 'd', 'e', 5]
