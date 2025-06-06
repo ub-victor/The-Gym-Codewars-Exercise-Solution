@@ -1,6 +1,3 @@
-console.log(neutralise('abc', 'abc')); // 'abc'
-console.log(neutralise('abc', 'abd')); 
-
 function neutralise(s1, s2) {
     let result = '';
     for (let i = 0; i < s1.length; i++) {
