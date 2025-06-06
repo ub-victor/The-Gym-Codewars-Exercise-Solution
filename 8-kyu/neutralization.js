@@ -14,6 +14,3 @@ function neutralise(s1, s2) {
     }
     return result;
 }
-
-console.log(neutralise('++++', '++--'));
-console.log(neutralise('++--', '----')); 
