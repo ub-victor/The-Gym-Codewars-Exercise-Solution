@@ -9,6 +9,7 @@ function neutralise(s1, s2) {
             result = '0'
         }
     }
+    return result;
 }
 
 console.log(neutralise('abc', 'abc')); // 'abc'
