@@ -1,5 +1,5 @@
 console.log(neutralise('abc', 'abc')); // 'abc'
-console.log(neutralise('abc', 'abd')); // '0'
+console.log(neutralise('abc', 'abd')); 
 
 function neutralise(s1, s2) {
     let result = '';
