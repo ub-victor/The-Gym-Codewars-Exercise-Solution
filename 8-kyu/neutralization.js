@@ -1,3 +1,6 @@
+console.log(neutralise('abc', 'abc')); // 'abc'
+console.log(neutralise('abc', 'abd')); // '0'
+
 function neutralise(s1, s2) {
     let result = '';
     for (let i = 0; i < s1.length; i++) {
@@ -12,5 +15,5 @@ function neutralise(s1, s2) {
     return result;
 }
 
-console.log(neutralise('abc', 'abc')); // 'abc'
-console.log(neutralise('abc', 'abd')); // '0'
+console.log(neutralise('++++', '++--'));
+console.log(neutralise('++--', '----')); 
