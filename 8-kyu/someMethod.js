@@ -10,4 +10,4 @@ const even = (element)=> element % 2 === 0;
 
 console.log(array.some(even));
 
-// Expected output: true 
+// Expected output: true
