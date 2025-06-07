@@ -15,6 +15,34 @@
     
 
     <script>
+         // Get five numbers from the user
+    const num1 = parseFloat(prompt("Enter the first number:"));
+    const num2 = parseFloat(prompt("Enter the second number:"));
+    const num3 = parseFloat(prompt("Enter the third number:"));
+    const num4 = parseFloat(prompt("Enter the fourth number:"));
+    const num5 = parseFloat(prompt("Enter the fifth number:"));
+
+    // Assume num1 is the largest to start
+
+    let largest = num1
+    
+    // Compare with the rest
+
+    if (num2 > largest ){
+        largest = num2
+    }
+    if(num3> largest){
+        largest = num3
+    }
+    if(num4 > largest){
+        largest =num4
+    }
+    if(num5> largest){
+        largest =num5
+    }
+
+    // Show the largest number
+    alert(`The largest number is ${largest}`);
    
     </script>
 </body>
