@@ -6,12 +6,35 @@
     <title>Largest of Two Integers</title>
 </head>
 <body>
+    <div>
+        <h2>Sign of Product of Three Numbers</h2>
+        <p>Write a JavaScript conditional statement to find the sign of the product of three numbers. Display an alert box with the specified sign.
+        Sample numbers : 3, -7, 2
+        Output : The sign is - <a href="/">Click me to see the solution</a></p>
+    </div>
     
 
     <script>
         const num1 = parseFloat(prompt("Enter the first number:"));
         const num2 = parseFloat(prompt("Enter the second number:"));
         const num3 = parseFloat(prompt("Enter the third number:"));
+
+        // Find the sign of the product
+
+        let sign;
+        const negativeCount = [num1, num2, num3].filter(n => n < 0 ).length;// .length: After filtering, .length gives the number of elements left in the array (i.e., how many numbers were negative). are negative ,
+        const zeroPresent = [num1, num2, num3].some(n=> n === 0);
+        if(zeroPresent){
+            sign = '0';
+        }else if(negativeCount % 2 === 0){
+            sign = '+'
+        }else{
+            sign = '-';
+        }
+
+        //Show the sign in an alert
+        alert("The sign is "+ sign);
+      
     </script>
 </body>
 </html>
