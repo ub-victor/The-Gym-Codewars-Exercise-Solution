@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Largest of Two Integers</title>
+</head>
+<body>
+    <div>
+        <h2>Sort Three Number</h2>
+        <p>Write a JavaScript conditional statement to sort three numbers. Display an alert box to show the results.<a href="/">Click me to see the solution</a></p>
+    </div>
+    
+
+    <script>
+        // Get three numbers from the user
+        const num1 = parseFloat(prompt("Enter the first number:"));
+        const num2 = parseFloat(prompt("Enter the second number:"));
+        const num3 = parseFloat(prompt("Enter the third number:"));
+
+        let first , second, third
+
+
+        // Compare and sort using Conditional Statement
+
+        if (num1 >= num2 && num1 >= num3){
+            first = num1
+            if(num2>= num3){
+                second = num2;
+                third = num3;
+            }else{
+                second = num3;
+                third =num2;
+            }
+        }else if(num2 >= num1 && num2 >= num3){
+            first =num2
+            if(num1>= num3){
+                second =num1;
+                third = num3;
+            }else{
+                second = num3;
+                third = num1;
+            }
+        }else {
+            first = num3
+            if(num1>= num2){
+                second = num1;
+                third = num2;
+            }else{
+                second = num2;
+                third = num1;
+            }
+        }
+
+        alert(`Sorted order: ${first}, ${second}, ${third}` )
+              
+    </script>
+</body>
+</html>
