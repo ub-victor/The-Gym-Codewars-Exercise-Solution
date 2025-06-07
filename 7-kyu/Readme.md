@@ -1,4 +1,4 @@
-JavaScript Challenges & Exercises
+# JavaScript Challenges & Exercises
 Welcome to my JavaScript practice hub! 🚀
 A growing collection of coding challenges, exercises, and Codewars problems that I work on regularly. Whether you're brushing up your skills or tackling new problems, you'll find a variety of challenges to test your JavaScript prowess.
 
