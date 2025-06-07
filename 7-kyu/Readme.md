@@ -57,7 +57,7 @@ Let's learn and grow together! 🌟
 You can clone this repo to get started:
 
 ```
-git clone https://github.com/your-username/your-repo-name.git 
+git clone https://github.com/ub-victor/The-Gym-Codewars-Exercise-Solution.git
  ``` 
 
 
