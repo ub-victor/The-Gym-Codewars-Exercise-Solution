@@ -6,6 +6,11 @@
     <title>Largest of Two Integers</title>
 </head>
 <body>
-    
+    <script>
+        const num1 = parseInt(prompt("Enter the first integer:"), 10); // the 10 is the radix which `so in case user input "010", it will be interpreted as 10 in decimal, not 8 in octal or if 42px it will be NaN
+        const num2 = parseInt(prompt("Enter the second integer:"));
+        const largest = (num1 > num2) ? num1 : num2;
+        alert("The largest integer is: " + largest);
+    </script>
 </body>
 </html>
