@@ -20,6 +20,9 @@
 
         const input = document.getElementById('userNumber').value;
         const number = parseInt(input);
+
+        if(isNaN(number)){
+            resultsDiv.textContent = "Please enter a valid number!"
     }
 </script>
 </body>
