@@ -13,21 +13,24 @@
     
 
     <script>
-         // Get five numbers from the user
-    const num1 = parseFloat(prompt("Enter the first number:"));
-    const num2 = parseFloat(prompt("Enter the second number:"));
-    const num3 = parseFloat(prompt("Enter the third number:"));
-    const num4 = parseFloat(prompt("Enter the fourth number:"));
-    const num5 = parseFloat(prompt("Enter the fifth number:"));
 
-    // Get five numbers from the user
+        // Ask user to input a number
+        const input = prompt("Enter a number:");
 
-    const largest = Math.max(num1, num2, num3, num4, num5);
+        //Convert the input to a number
+        const number = parseInt(input);
 
-    
-
-    // Show the largest number
-    alert(`The largest number is ${largest}`);
+        // check if in[ut is a valid number
+        if(isNaN(number)){
+            alert("That's not a valid number!");
+        }else{
+            if (number % 2 === 0){
+                alert(number+ " is even");
+            }else{
+                alert(number+ "is odd");
+            }
+        }
+         
    
     </script>
 </body>
