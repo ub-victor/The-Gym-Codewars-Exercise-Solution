@@ -23,6 +23,14 @@
 
         if(isNaN(number)){
             resultsDiv.textContent = "Please enter a valid number!"
+        }
+
+        for(let i = 0; i<= number; i++){
+            const message = (i % 2 === 0)? `${i} is even` : `${i} is odd`;
+            const paragraph = document.createElement('p')
+            paragraph = message;
+            resultsDiv.appendChild(paragraph);
+        }
     }
 </script>
 </body>
