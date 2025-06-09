@@ -16,6 +16,14 @@
 <script>
     function showUsernameLength(){
         const usernameInput = document.getElementById('username').value;
+        const resultDiv = document.getElementById('lengthResult');
+
+        if(usernameInput.trim() === ''){
+            resultDiv.textContent = "Please enter a username."
+            return;
+        }
+        const length = usernameInput.length
+        resultDiv.textContent =   `Your username had ${length} characters.`;
     }
 
 
