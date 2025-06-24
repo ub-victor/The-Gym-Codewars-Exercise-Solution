@@ -17,4 +17,3 @@ function sortObjectByValues(obj) {
 const fruits = { apples: 10, oranges: 5, bananas: 15 };
 console.log(sortObjectByValues(fruits));
 // Output: ["bananas: 15", "apples: 10", "oranges: 5"]
-
