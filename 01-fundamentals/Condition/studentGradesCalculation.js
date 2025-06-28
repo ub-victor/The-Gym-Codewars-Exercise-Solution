@@ -7,8 +7,8 @@
 </head>
 <body>
 <div>
-    <h2>Odd or Even Loop</h2>
-    <p>Write a JavaScript for loop that iterates from 0 to 15. For each iteration, it checks if the current number is odd or even, and displays a message on the screen.</p>
+    <h2>Student Grades Calculation</h2>
+    <p>Write a JavaScript program that computes the average marks of the following students. Then, this average is used to determine the corresponding grade.</p>
     <div id="results"></div>
 </div>
 <script>
