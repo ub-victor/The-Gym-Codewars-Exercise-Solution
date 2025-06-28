@@ -60,3 +60,97 @@ let totalMarks = 0;
 </script>
 </body> 
 </html>
+
+
+
+<!-- //  Function to calculate the average and determine the grade
+
+const students = [
+    { name: "David", marks: 80 },
+    { name: "Vinoth", marks: 77 },
+    { name: "Divya", marks: 88 },
+    { name: "Ishitha", marks: 95 },
+    { name: "Thomas", marks: 68 }
+];
+
+let totalMarks = 0;
+
+// Loop through each student to calculate total marks
+ for (let i = 0; i < students.length; i++){
+    totalMarks += students[i].marks
+ }
+
+ // Calculate average marks
+
+ const average = totalMarks / students.length;
+
+ // Determine the grade based on average marks
+
+ // let initializing the grade variable
+
+ let grade;
+
+ if (average < 60) {
+        grade = `F and\nthe avarage is ${average}`;
+    } else if (average < 70) {
+        grade = `D and\nthe avarage is ${average}`;
+    } else if (average < 80) {
+        grade = `C and\nthe avarage is ${average}`;
+    } else if (average < 90) {
+        grade = `B and\nthe avarage is ${average}`;
+    } else {
+        grade = `A and\nthe avarage is ${average}`;
+    }
+
+ // Display the results
+
+ // Display Results
+
+console.log(grade);
+
+// With a Function 
+
+
+function checkStudentMarks() {
+    const students = [
+        { name: "David", marks: 80 },
+        { name: "Vinoth", marks: 77 },
+        { name: "Divya", marks: 88 },
+        { name: "Ishitha", marks: 95 },
+        { name: "Thomas", marks: 68 }
+    ];
+
+    // Sum all student marks
+    let totalMarks = 0;
+    for (let i = 0; i < students.length; i++) {
+        totalMarks += students[i].marks;
+    }
+
+    // Calculate the average
+    const average = totalMarks / students.length;
+
+    let grade;
+
+    if (average < 60) {
+        grade = `F and\nthe avarage is ${average}`;
+    } else if (average < 70) {
+        grade = `D and\nthe avarage is ${average}`;
+    } else if (average < 80) {
+        grade = `C and\nthe avarage is ${average}`;
+    } else if (average < 90) {
+        grade = `B and\nthe avarage is ${average}`;
+    } else {
+        grade = `A and\nthe avarage is ${average}`;
+    }
+
+    return grade;
+}
+
+console.log(checkStudentMarks());  // Output: B
+
+
+
+
+
+
+-->
