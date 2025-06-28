@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Highlight Matching Words</title>
+<style>
+  span.highlight {
+    background-color: yellow;
+  }
+</style>
+</head>
+<body>
+
+<!-- Input box at the top -->
+<input type="text" id="searchInput" placeholder="Type a word to highlight" />
+
+<!-- Paragraph of text -->
+<div id="textContainer">
+  This is a sample paragraph to demonstrate the highlighting of matching words as you type.
+</div>
+
+<script>
+  const input = document.getElementById('searchInput');
+  const container = document.getElementById('textContainer');
+
+  input.addEventListener('input', function() {
+    // Reset the paragraph
+    let text = container.textContent;
+    // Clear previous highlights
+    container.innerHTML = text;
+
+    const searchTerm = this.value.trim();
+
+    if (searchTerm !== '') {
+      // Create a regex for the search term, case-insensitive
+      const regex = new RegExp(`(${searchTerm})`, 'gi');
+
+      // Replace matching words with span wrapping
+      container.innerHTML = text.replace(regex, '<span class="highlight">$1</span>');
+    }
+  });
+</script>
+
+</body>
+</html>
