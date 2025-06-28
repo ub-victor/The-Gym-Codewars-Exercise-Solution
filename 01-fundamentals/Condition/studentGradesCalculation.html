@@ -12,8 +12,47 @@
     <div id="results"></div>
 </div>
 <script>
-// Function to calculate the average and determine the grade
+//  Function to calculate the average and determine the grade
+
+const students = [
+    { name: "David", marks: 80 },
+    { name: "Vinoth", marks: 77 },
+    { name: "Divya", marks: 88 },
+    { name: "Ishitha", marks: 95 },
+    { name: "Thomas", marks: 68 }
+];
+
+let totalMarks = 0;
+
+// Loop through each student to calculate total marks
+ for (let i = 0; i < students.length; i++){
+    totalMarks += students[i].marks
+ }
+
+ // Calculate average marks
+
+ const average = totalMarks / students.length;
+
+ // Determine the grade based on average marks
+
+ // let initializing the grade variable
+
+ let grade;
+
+ if (average < 60){
+    grade = "F";
+ } else if (average < 70) {
+    grade = "D";
+ } else if (average < 80) {
+    grade = "C";
+ } else if (average < 90) {
+    grade = "B";
+ } else {
+    grade = "A";
+ }
+
+ // Display the results
 
 </script>
-</body>
+</body> 
 </html>
