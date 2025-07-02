@@ -6,7 +6,7 @@ function countPositivesSumNegatives(input) {
 
     for (let i of input){
         if (i> 0){
-            result[0]++;
+            result[0]++; 
         }else {
             result[1] += 1;
         }
