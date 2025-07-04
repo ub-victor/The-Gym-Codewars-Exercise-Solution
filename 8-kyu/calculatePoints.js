@@ -15,3 +15,5 @@ function calculatePoints(matches){
 
 // Example usage:
 console.log(calculatePoints(['1:0', '2:2', '3:1', '0:1'])); // Output: 7
+
+
