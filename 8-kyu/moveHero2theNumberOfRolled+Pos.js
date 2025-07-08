@@ -1,3 +1,6 @@
+// You start at the current position, then move forward by the value of the die roll multiplied by 2. The result is the hero’s new position.
+// New Position=Current Position+2×Die Roll
+
 function move(position, roll){
     return position + roll * 2
 }
