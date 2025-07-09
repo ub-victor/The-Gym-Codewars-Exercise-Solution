@@ -9,7 +9,7 @@
 
 function addExtra(inputList){
     // Create a new list (copy of input list)
-    let newList = [...inputList];
+    let newList = [...inputList]; // Spread operator to copy the input list
 
     // Add the new item to the new list
     newList.push(13);
