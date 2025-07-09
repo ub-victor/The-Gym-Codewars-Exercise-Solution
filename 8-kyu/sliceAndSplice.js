@@ -3,3 +3,7 @@
 
 // Array.prototype.splice(start, deleteCount[, item1, item2, ...])
 // Modify the original array and return the removed elements
+
+
+const log = console.log;
+
