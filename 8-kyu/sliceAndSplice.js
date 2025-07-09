@@ -13,4 +13,5 @@ log(names.slice()); // Here the will return a shallow copy of the original array
 
 log(names.slice(1, 3)) // Here the will return a shallow copy of the original array from index 1 to index 3 (not including index 3)
 
-names.splice(1,1, ['James', 'Jasmine', 'Jasper']);
+log(names.slice(1,1)); // Here the will return a shallow copy of the original array from index 1 to index 1 (not including index 1), which is an empty array
+log(names.splice(1, 1, ['James', 'Jasmine'])); // Here the will modify the original array and return the removed elements, which is ['Jane']
