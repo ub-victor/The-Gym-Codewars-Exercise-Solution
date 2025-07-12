@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Highlight Long Words</title>
+</head>
+<body>
+  <p id="text">
+    I am the third vehicle in the patrol so my cupola is always pointed right, the others cover their own arcs and together we create a lethal bubble, a pinprick of British-owned ground that roams back and forth across this continent as we please, or must. We’re currently heading north-east so if one were to fire an imaginary round it could in theory carry on to Niger, or Chad, or (curving slightly) even Kenya and the sea. I’ve spent a lot of time in Kenya – at Nanyuki or Archer’s Roast - and it’s so like here and so different I struggle to put into words exactly why.
+  </p>
+  
+  <script>
+   
+    const paragraph = document.getElementById('text');
+
+    
+    const text = paragraph.textContent;
+
+    
+    const words = text.split(/\s+/);
+
+    const processedWords = words.map(word => {
+      
+      const cleanWord = word.replace(/[.,()\-—]/g, '');
+      if (cleanWord.length > 5) {
+        
+        return `<span style="color: green;">${word}</span>`;
+      } else {
+        
+        return word;
+      }
+    });
+
+    const newHTML = processedWords.join(' ');
+
+    
+    paragraph.innerHTML = newHTML;
+  </script>
+</body>
+</html>
