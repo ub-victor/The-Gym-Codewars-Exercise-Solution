@@ -21,7 +21,7 @@
 
     const processedWords = words.map(word => {
       
-      const cleanWord = word.replace(/[.,()\-—]/g, '');  
+      const cleanWord = word.replace(/[.,()\-—]/g, ''); 
       if (cleanWord.length > 5) {
         
         return `<span style="color: green;">${word}</span>`;
