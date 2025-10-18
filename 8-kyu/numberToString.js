@@ -5,4 +5,4 @@ const numberToString = function(num) {
 };
 
 
-console.log(numberToString(1234)) // "1234"
+console.log(numberToString(1234)) // "1234" 
