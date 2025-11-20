@@ -1,4 +1,4 @@
-// map and filter return a new array they don't modify the new array
+// map and filter return a new array they don't modify the original array
 const number = [1, -1, 2,3];
 
 const filtered  = number.filter(n=> n>=o);
