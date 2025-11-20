@@ -7,6 +7,9 @@ const html = items.join();
 // const html = "ul"+ items.join("")+ "ul";
 
 */
-const items 
+const items = filtered.map(n => {
+    const obj = {value:n}
+    return obj;
+})
 
 console.log(items);
