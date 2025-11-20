@@ -2,4 +2,4 @@ const number = [1, -1, 2,3];
 
 const filtered  = number.filter(n=> n>=o);
 
-const items = filtered.map(n=> "<li>" )
+const items = filtered.map(n=> "<li>"+ n +"<li>" )
