@@ -5,7 +5,7 @@ function summation(n){
     for(let i =0; i<=n; i ++ ){
         result.push(i);
     }
-    return result;  
+    return result;
 }
 
 console.log(summation(10));
