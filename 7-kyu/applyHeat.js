@@ -41,7 +41,8 @@ const applyHeat = (ingredients) =>{
     }
 
     // =========================
-    // RECIPE 1
-    // GREEN + YELLOW --> BROWN + YELLOW
-    // =========================    
+    // RECIPE 2
+    // BROWN + YELLOW --> MAGENTA
+    // =========================
+    
 }
