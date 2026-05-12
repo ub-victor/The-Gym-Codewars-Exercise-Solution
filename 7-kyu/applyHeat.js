@@ -9,4 +9,13 @@ That mean
     - The chemical must be in the correct order
     - The machine only understand the recipes provided
     - If the order is wrong or the chemicals are different, the reaction fails
+
+    Recipe 1
+        GREEN + YELLOW -- HEAT --> BROWN + YELLOW
+        Meaning  we put ["GREEN", "YELLOW"] will give ["BROWN", "YELLOW"]
+    Recipe 2 
+        BROWN + YELLO --HEAT --> MAGENTA
+        But YELLO + BROWN = UNKNOWN
+
 */
+
