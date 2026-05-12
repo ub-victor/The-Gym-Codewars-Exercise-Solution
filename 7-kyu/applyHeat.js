@@ -44,5 +44,11 @@ const applyHeat = (ingredients) =>{
     // RECIPE 2
     // BROWN + YELLOW --> MAGENTA
     // =========================
-    
+    if(
+        ingredients.lenght === 2 &&
+        ingredients[0] === "BROWN" &&
+        ingredients[1] === "YELLOW"
+    ){
+        return ["MAGENTA"]
+    }
 }
