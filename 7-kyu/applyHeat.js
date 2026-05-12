@@ -44,6 +44,11 @@ const applyHeat = (ingredients) =>{
     // RECIPE 2
     // BROWN + YELLOW --> MAGENTA
     // =========================
+
+    // Check if:
+    // 1. The array contains exactly 2 items
+    // 2. First chemical is "BROWN"
+    // 3. Second chemical is "YELLOW"
     if(
         ingredients.lenght === 2 &&
         ingredients[0] === "BROWN" &&
