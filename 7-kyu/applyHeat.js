@@ -32,7 +32,7 @@ const applyHeat = (ingredients) =>{
     // 3. Second chemical is "YELLOW"
 
     if (
-        ingredients.lenght === 2 &&
+        ingredients.length === 2 &&
         ingredients[0] === "GREEN" &&
         ingredients[1] === "YELLOW"
     ){
@@ -50,7 +50,7 @@ const applyHeat = (ingredients) =>{
     // 2. First chemical is "BROWN"
     // 3. Second chemical is "YELLOW"
     if(
-        ingredients.lenght === 2 &&
+        ingredients.length === 2 &&
         ingredients[0] === "BROWN" &&
         ingredients[1] === "YELLOW"
     ){
