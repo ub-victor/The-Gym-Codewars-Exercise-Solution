@@ -12,7 +12,6 @@ And JavaScript already gave us the build in method endsWith()
  */
 
 // Create a function named solution
-
-function solution(str, ending)
-
-const solution = (str, ending)
+const solution = (str, ending) => {
+    
+}
