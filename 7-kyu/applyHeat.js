@@ -56,4 +56,12 @@ const applyHeat = (ingredients) =>{
     ){
         return ["MAGENTA"]
     }
+    // =========================
+    // UNKNOWN RECIPE
+    // =========================
+
+    // If no recipe matches,
+    // return UNKNOWN
+
+    return ["UNKNOWN"];
 }
