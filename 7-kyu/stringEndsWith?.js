@@ -7,4 +7,6 @@ You want to know:
     Doest  "abc" end with "bc"?
         if yes -> return true
         if not -> return false
+
+And JavaScript already gave us the build in method endsWith()
  */
