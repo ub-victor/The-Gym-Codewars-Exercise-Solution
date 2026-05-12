@@ -14,5 +14,5 @@ And JavaScript already gave us the build in method endsWith()
 // Create a function named solution
 const solution = (str, ending) => {
     // Check if "str" ends with the value stored in 'ending'
-    // 
+    // endsWith() returns 
 }
