@@ -11,4 +11,4 @@ You want to know:
 And JavaScript already gave us the build in method endsWith()
  */
 
-// Create a 
+// Create a function named solution
