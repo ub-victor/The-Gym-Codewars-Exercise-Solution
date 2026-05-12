@@ -17,3 +17,5 @@ const solution = (str, ending) => {
     // endsWith() returns  either true or false
     return str.endsWith(ending);
 }
+
+console.log(solution("abc", "bc"))
