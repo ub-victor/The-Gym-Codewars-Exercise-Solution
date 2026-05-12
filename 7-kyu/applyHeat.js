@@ -49,6 +49,6 @@ const applyHeat = (ingredients) =>{
         ingredients[0] === "BROWN" &&
         ingredients[1] === "YELLOW"
     ){
-        return ["MAGENTA"] 
+        return ["MAGENTA"]
     }
 }
