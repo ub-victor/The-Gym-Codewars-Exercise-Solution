@@ -21,4 +21,10 @@ That mean
 // The function receives an array called ingredients
 const applyHeat = (ingredients) =>{
 
+    // =========================
+    // RECIPE 1
+    // GREEN + YELLOW --> BROWN + YELLOW
+    // =========================
+
+    
 }
