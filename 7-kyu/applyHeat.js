@@ -18,4 +18,7 @@ That mean
         But YELLO + BROWN = UNKNOWN
 
 */
+// The function receives an array called ingredients
+const applyHeat = (ingredients) =>{
 
+}
