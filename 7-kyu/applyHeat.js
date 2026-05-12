@@ -66,3 +66,19 @@ const applyHeat = (ingredients) =>{
     return ["UNKNOWN"];
 
 }
+
+// =========================
+// TEST CASES
+// =========================
+
+// Test Recipe 1
+console.log(applyHeat(["GREEN", "YELLOW"]));
+// Output: ["BROWN", "YELLOW"]
+
+// Test Recipe 2
+console.log(applyHeat(["BROWN", "YELLOW"]));
+// Output: ["MAGENTA"]
+
+// Wrong order -> Unknown recipe
+console.log(applyHeat(["YELLOW", "BROWN"]));
+// Output: ["UNKNOWN"]
