@@ -7,5 +7,5 @@ The machine follow Strinct recipes.
 
 That mean
     - The chemical must be in the correct order
-    - The 
+    - The machine only understand the recipes provided
 */
