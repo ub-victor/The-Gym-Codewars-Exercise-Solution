@@ -34,7 +34,9 @@ Step 4 Not Gate
 
 Step 5 Righ or Gate
 
-and1 ||  input4
+and1 ||  input4 store in or 3
+
+Final And Gate
 
 
 
