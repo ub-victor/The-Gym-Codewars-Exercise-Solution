@@ -34,6 +34,8 @@ Step 4 Not Gate
 
 Step 5 Righ or Gate
 
+and1 ||  input4
+
 
 
 */
