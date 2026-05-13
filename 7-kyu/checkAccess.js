@@ -19,7 +19,7 @@ The machine checks:
         Secrete Code: "LAB123", Entered Code: "LAB123"
 */
 
-const checkAccess = (secretCode, enteredCode) = {
+const checkAccess = (secretCode, enteredCode) => {
 
     if(secretCode === enteredCode){
         return "ACCESS GRANTED ";
