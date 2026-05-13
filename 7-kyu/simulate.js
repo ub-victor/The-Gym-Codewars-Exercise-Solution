@@ -81,5 +81,7 @@ const simulate = (input1, input2, input3, input )=>{
     // true becomes false
     // false becomes true
 
+    const not1 = !or2;
+
 
 }
