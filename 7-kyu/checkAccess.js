@@ -17,4 +17,4 @@ The machine checks:
         if both are exactly the sane -> return "ACCESS GRANTED"
         Otherwise -> return "ACCESS DENIED"
         Secrete Code: "LAB123", Entered Code: "LAB123"
-*/ 
+*/
