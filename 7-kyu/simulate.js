@@ -22,6 +22,7 @@ Step 2 Middle and Gate
 
 input3 && or1
 
+This checks if Both are true
 
 
 */
