@@ -72,4 +72,14 @@ const simulate = (input1, input2, input3, input )=>{
     // Result stored inside or2
 
     const or2 = input3 || input2;
+
+    // =========================
+    // NOT Gate
+    // =========================
+
+    // Reverse the value of or2
+    // true becomes false
+    // false becomes true
+
+
 }
