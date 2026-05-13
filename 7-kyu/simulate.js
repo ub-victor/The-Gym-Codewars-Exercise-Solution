@@ -14,5 +14,9 @@ These gates behave like tiny decision makers inside computers.
 HOW THE CIRCUIT WORKS STEP BY STEP
 The circuit processes signals in stages.
 
+Step 1 Bottom OR Gate
+
+input2 || !input1 = First reverse input1 then compare it with input2 using OR then store the result in or1
+
 
 */
