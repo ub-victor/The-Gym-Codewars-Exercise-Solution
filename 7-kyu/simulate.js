@@ -70,4 +70,6 @@ const simulate = (input1, input2, input3, input )=>{
 
     // Check if either input3 or input2 is true
     // Result stored inside or2
+
+    
 }
