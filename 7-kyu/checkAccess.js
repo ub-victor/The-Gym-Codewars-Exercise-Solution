@@ -26,3 +26,18 @@ const checkAccess = (secretCode, enteredCode) => {
     }
     return "ACCESS DENIED";
 }
+
+// Test Case 1
+// Codes are identical
+console.log(checkAccess("LAB123", "LAB123"));
+// Output: ACCESS GRANTED
+
+// Test Case 2
+// Different uppercase/lowercase letters
+console.log(checkAccess("LAB123", "lab123"));
+// Output: ACCESS DENIED
+
+// Test Case 3
+// Completely wrong code
+console.log(checkAccess("LAB123", "ABC999"));
+// Output: ACCESS DENIED
