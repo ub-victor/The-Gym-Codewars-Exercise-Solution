@@ -8,5 +8,6 @@ And each input can only be "true" = Electricity ON or "false" = OFF
 
 WHAT THE CIRCUIT CONTAINS
 
-
+The digital circuit is made of logic gates.
+These gates behave like tiny decision makers inside computers.
 */
