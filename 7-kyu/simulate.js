@@ -18,5 +18,10 @@ Step 1 Bottom OR Gate
 
 input2 || !input1 = First reverse input1 then compare it with input2 using OR then store the result in or1
 
+Step 2 Middle and Gate
+
+input3 && or1
+
+
 
 */
