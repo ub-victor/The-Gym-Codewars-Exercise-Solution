@@ -34,9 +34,11 @@ Step 4 Not Gate
 
 Step 5 Righ or Gate
 
-and1 ||  input4 store in or 3
+and1 ||  input4 store in or3
 
-Final And Gate
+Final And Gate 
+
+not1 && or3 This gives the final output of the entire circuit
 
 
 
