@@ -54,4 +54,6 @@ const simulate = (input1, input2, input3, input )=>{
     // Result is stored inside or1
 
     const or1 = !input1 || input2;
+
+    
 }
