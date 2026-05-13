@@ -90,9 +90,27 @@ const simulate = (input1, input2, input3, input4)=>{
     // Check if either and1 or input4 is true
     // Result stored inside or3
 
-    const or3 = and1 || input4
+    const or3 = and1 || input4;
 
+    // =========================
+    // Final AND Gate
+    // =========================
 
+    // Final result:
+    // BOTH not1 and or3 must be true
+    // Return the final output
+
+    return not1 && or3;
 
 
 }
+
+// =========================
+// TEST CASE
+// =========================
+
+// Call the function with 4 inputs
+console.log(simulate(false, false, false, true));
+
+// Output:
+// true
