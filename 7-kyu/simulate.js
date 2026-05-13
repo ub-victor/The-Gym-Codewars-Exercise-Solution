@@ -40,6 +40,5 @@ Final And Gate
 
 not1 && or3 This gives the final output of the entire circuit
 
-
-
 */
+
