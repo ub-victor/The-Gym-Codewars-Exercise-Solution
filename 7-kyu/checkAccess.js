@@ -24,6 +24,5 @@ const checkAccess = (secretCode, enteredCode) => {
     if(secretCode === enteredCode){
         return "ACCESS GRANTED ";
     }
-
     return "ACCESS DENIED";
 }
