@@ -11,5 +11,10 @@ The machine checks:
 
     Your task is to create a function that checks whether the entered code is correct
     RULES
-        
+        The function receive two strings:
+            The secret code
+            The entered code
+        if both are exactly the sane -> return "ACCESS GRANTED"
+        Otherwise -> return "ACCESS DENIED"
+        Secrete Code: "LAB123", Entered Code: "LAB123"
 */ 
