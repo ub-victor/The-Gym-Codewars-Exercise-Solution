@@ -10,4 +10,6 @@ The machine checks:
     -If it does not match -> access in denied
 
     Your task is to create a function that checks whether the entered code is correct
+    RULES
+        
 */ 
