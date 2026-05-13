@@ -62,7 +62,7 @@ const simulate = (input1, input2, input3, input4)=>{
     // Check if BOTH input3 and or1 are true
     // Result stored inside and1
     
-    const and1 = input3 && and1;
+    const and1 = input3 && or1;
 
     // =========================
     // Top OR Gate
