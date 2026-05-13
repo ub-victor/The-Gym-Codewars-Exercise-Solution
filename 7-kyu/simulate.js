@@ -44,7 +44,7 @@ not1 && or3 This gives the final output of the entire circuit
 
 // Create  a function names simulate
 // thr function receive 4 boolean inputs
-const simulate = (input1, input2, input3, input )=>{
+const simulate = (input1, input2, input3, input4)=>{
     // =========================
     // Bottom OR Gate
     // =========================
@@ -90,7 +90,9 @@ const simulate = (input1, input2, input3, input )=>{
     // Check if either and1 or input4 is true
     // Result stored inside or3
 
-    
+    const or3 = and1 || input4
+
+
 
 
 }
