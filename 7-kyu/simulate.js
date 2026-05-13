@@ -22,7 +22,14 @@ Step 2 Middle and Gate
 
 input3 && or1
 
-This checks if Both are true
+This checks if Both are true and stored in and1
+
+Step 3 Top OR Gate
+
+input3 || input2
+
+
+
 
 
 */
