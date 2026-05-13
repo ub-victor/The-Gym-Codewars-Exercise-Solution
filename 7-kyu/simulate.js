@@ -55,5 +55,10 @@ const simulate = (input1, input2, input3, input )=>{
 
     const or1 = !input1 || input2;
 
-    
+     // =========================
+    // Middle AND Gate
+    // =========================
+
+    // Check if BOTH input3 and or1 are true
+    // Result stored inside and1
 }
