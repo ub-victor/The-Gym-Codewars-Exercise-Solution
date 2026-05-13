@@ -44,4 +44,4 @@ not1 && or3 This gives the final output of the entire circuit
 
 // Create  a function names simulate
 // thr function receive 4 boolean inputs
-const simulate = (input1, input2, input3 )
+const simulate = (input1, input2, input3, input )
