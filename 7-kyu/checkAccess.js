@@ -19,3 +19,6 @@ The machine checks:
         Secrete Code: "LAB123", Entered Code: "LAB123"
 */
 
+const checkAccess = () = {
+    
+}
