@@ -26,9 +26,13 @@ This checks if Both are true and stored in and1
 
 Step 3 Top OR Gate
 
-input3 || input2
+input3 || input2 stored the result in or2
 
+Step 4 Not Gate
 
+!or2 => Reverse the value of or2 the store it in not1
+
+Step 5 Righ or Gate
 
 
 
