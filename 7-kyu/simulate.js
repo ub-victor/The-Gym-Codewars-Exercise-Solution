@@ -83,5 +83,7 @@ const simulate = (input1, input2, input3, input )=>{
 
     const not1 = !or2;
 
+    
+
 
 }
