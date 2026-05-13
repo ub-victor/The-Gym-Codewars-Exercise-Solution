@@ -9,5 +9,5 @@ The machine checks:
     - If it matches -> access is granted
     -If it does not match -> access in denied
 
-    Your ta
+    Your task is to create a function that checks whether the entered code is correct
 */ 
