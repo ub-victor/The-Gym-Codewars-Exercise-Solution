@@ -42,3 +42,5 @@ not1 && or3 This gives the final output of the entire circuit
 
 */
 
+// Create  a function names simulate
+// thr function receive 4 boolean inputs
