@@ -45,5 +45,13 @@ not1 && or3 This gives the final output of the entire circuit
 // Create  a function names simulate
 // thr function receive 4 boolean inputs
 const simulate = (input1, input2, input3, input )=>{
-    
+    // =========================
+    // Bottom OR Gate
+    // =========================
+
+    // Reverse input1 using NOT (!)
+    // Then compare with input2 using OR (||)
+    // Result is stored inside or1
+
+    const or1 = !input1 || input2;
 }
