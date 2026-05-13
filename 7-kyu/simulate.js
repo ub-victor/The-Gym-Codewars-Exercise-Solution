@@ -4,4 +4,5 @@ Before manufacturing the real circuit, the engineers want to simulate circuit us
 
 The circuit receives 4 electrical signals:
 input1, input2, input3, input4
+And each input can only be "true" = Electricity ON or "false" = OFF
 */
