@@ -12,6 +12,7 @@ The digital circuit is made of logic gates.
 These gates behave like tiny decision makers inside computers.
 
 HOW THE CIRCUIT WORKS STEP BY STEP
+The circuit processes signals in stages
 
 
 */
