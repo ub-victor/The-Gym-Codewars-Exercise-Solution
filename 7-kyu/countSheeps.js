@@ -1,0 +1,4 @@
+/*
+We are asked to count many sheep are present in an arraay
+
+*/
