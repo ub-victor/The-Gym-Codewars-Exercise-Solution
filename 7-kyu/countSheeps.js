@@ -7,4 +7,18 @@ If the array contain null, undefined we will considered bad values, so we should
 
 function countSheeps(sheep){
     let count = 0;
+
+    for(let i=0; i < sheep.lenght; i++){
+        if(sheep[i] == 0){
+            count++;
+        }
+    }
+    return count;
 }
+
+console.log(countSheeps([true,  true,  true,  false,
+                          true,  true,  true,  true ,
+                          true,  false, true,  false,
+                          true,  false, false, true ,
+                          true,  true,  true,  true ,
+                          false, false, true,  true ]));
