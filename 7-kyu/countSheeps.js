@@ -8,8 +8,8 @@ If the array contain null, undefined we will considered bad values, so we should
 function countSheeps(sheep){
     let count = 0;
 
-    for(let i=0; i < sheep.lenght; i++){
-        if(sheep[i] == 0){
+    for(let i=0; i < sheep.length; i++){
+        if(sheep[i] === true){
             count++;
         }
     }
