@@ -1,6 +1,6 @@
 function booleanToString(b){
   //your code here
-  return toString(b);
+  return String(b);
 }
 
 console.log(false);
