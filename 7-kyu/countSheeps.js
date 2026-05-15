@@ -6,5 +6,5 @@ If the array contain null, undefined we will considered bad values, so we should
 */
 
 function countSheeps(sheep){
-    
+    let count = 0;
 }
