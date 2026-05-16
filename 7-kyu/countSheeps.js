@@ -13,7 +13,7 @@ function countSheeps(sheep){
             count++;
         }
     }
-    return count; 
+    return count;
 }
 
 console.log(countSheeps([true,  true,  true,  false,
