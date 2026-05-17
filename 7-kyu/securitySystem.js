@@ -32,6 +32,14 @@ function securitySystem(
     motionSensor
     powerSensor
 ){
-    
+     // =========================
+    // STEP 1 - OR Gate
+    // =========================
+
+    // Check if either the door sensor
+    // OR the window sensor is active
+    // Store the result inside sensorCheck
+
+    or1 = doorSensor || windowSensor;
 
 }
