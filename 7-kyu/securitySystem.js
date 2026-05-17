@@ -84,6 +84,8 @@ function securitySystem(
     // =========================
     // FINAL OUTPUT
     // =========================
-    
+
+    // return the final alarm result
+    return finalCheck;
 
 }
