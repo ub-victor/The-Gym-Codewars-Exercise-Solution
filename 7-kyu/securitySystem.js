@@ -18,6 +18,7 @@ What the circuit should do
 Circuit Logic
     The system follows these steps:
         1. Check if the door OR window sensor is active
-        2. Check
+        2. Check if motion is detected AND power is available
+        3. Reverse the r
 
 */
