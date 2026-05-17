@@ -5,4 +5,6 @@ Before installing the real electronic circuit, engineers want to simulate how th
 
 The alarm system has 4 sensors:
 
+    -   
+
 */
