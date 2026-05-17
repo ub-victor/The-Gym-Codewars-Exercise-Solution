@@ -61,4 +61,6 @@ function securitySystem(
     // false becomes true
     // Store the result inside notGate
 
+    const notGate = !sensorCheck;
+
 }
