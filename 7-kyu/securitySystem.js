@@ -13,5 +13,7 @@ The alarm system has 4 sensors:
         - true -> sensor is active
         - false -> sensor is inactive
     What the circuit should do
+    The alarm should ring only in specific situations
+    To decide
 
 */
