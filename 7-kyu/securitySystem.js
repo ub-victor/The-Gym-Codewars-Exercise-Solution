@@ -26,3 +26,6 @@ Circuit Logic
 */
 
 // The function receive 4 boolean sensor values
+function securitySystem(
+    
+)
