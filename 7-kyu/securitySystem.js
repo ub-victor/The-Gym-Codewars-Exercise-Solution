@@ -12,8 +12,10 @@ The alarm system has 4 sensors:
     And Each sensor gives a boolean value:
         - true -> sensor is active
         - false -> sensor is inactive
-    What the circuit should do
+What the circuit should do
     The alarm should ring only in specific situations
-    To decide
+    To decide whether the alarm should activate, we need to use(||,&&,!)
+Circuit Logic
+    
 
 */
