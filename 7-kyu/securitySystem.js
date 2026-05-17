@@ -16,6 +16,7 @@ What the circuit should do
     The alarm should ring only in specific situations
     To decide whether the alarm should activate, we need to use(||,&&,!)
 Circuit Logic
-    
+    The system follows these steps:
+        1.
 
 */
