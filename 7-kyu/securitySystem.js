@@ -40,6 +40,6 @@ function securitySystem(
     // OR the window sensor is active
     // Store the result inside sensorCheck
 
-    or1 = doorSensor || windowSensor;
+    const sensorCheck = doorSensor || windowSensor;
 
 }
