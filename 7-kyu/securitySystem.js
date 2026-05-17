@@ -31,4 +31,7 @@ function securitySystem(
     windowSensor,
     motionSensor
     powerSensor
-)
+){
+    
+
+}
