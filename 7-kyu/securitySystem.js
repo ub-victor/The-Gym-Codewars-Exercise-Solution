@@ -19,6 +19,8 @@ Circuit Logic
     The system follows these steps:
         1. Check if the door OR window sensor is active
         2. Check if motion is detected AND power is available
-        3. Reverse the r
+        3. Reverse the result of step 1 using NOT
+        4. Combine the resuls using OR
+        
 
 */
