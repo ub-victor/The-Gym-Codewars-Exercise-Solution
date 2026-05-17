@@ -42,4 +42,12 @@ function securitySystem(
 
     const sensorCheck = doorSensor || windowSensor;
 
+    // =========================
+    // STEP 2 - AND Gate
+    // =========================
+
+    // Check if motion is detected
+    // AND power is available
+    // Store the result inside motionCheck
+
 }
