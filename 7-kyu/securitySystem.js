@@ -12,5 +12,6 @@ The alarm system has 4 sensors:
     And Each sensor gives a boolean value:
         - true -> sensor is active
         - false -> sensor is inactive
+    What the circuit should do
 
 */
