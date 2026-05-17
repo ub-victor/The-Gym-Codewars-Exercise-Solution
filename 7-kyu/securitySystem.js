@@ -50,4 +50,8 @@ function securitySystem(
     // AND power is available
     // Store the result inside motionCheck
 
+    const motionCheck = motionSensor && powerSensor;
+
+    
+
 }
