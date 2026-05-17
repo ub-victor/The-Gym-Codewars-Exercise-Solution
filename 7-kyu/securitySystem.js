@@ -29,7 +29,7 @@ Circuit Logic
 function securitySystem(
     doorSensor,
     windowSensor,
-    motionSensor
+    motionSensor,
     powerSensor
 ){
      // =========================
