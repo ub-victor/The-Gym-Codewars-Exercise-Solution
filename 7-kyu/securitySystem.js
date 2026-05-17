@@ -18,10 +18,15 @@ What the circuit should do
 Circuit Logic
     The system follows these steps:
         1. Check if the door OR window sensor is active
+            Store the result inside sensorCheck
         2. Check if motion is detected AND power is available
+            Store the result inside motionCheck
         3. Reverse the result of step 1 using NOT
+            Store the result inside notGate
         4. Combine the resuls using OR
+            Store the result inside finalCheck
         5. Produce the final alarm output
+            return the finalCheck
 
 */
 
