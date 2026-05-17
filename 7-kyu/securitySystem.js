@@ -21,6 +21,6 @@ Circuit Logic
         2. Check if motion is detected AND power is available
         3. Reverse the result of step 1 using NOT
         4. Combine the resuls using OR
-        
+        5. Produce the final alarm output
 
 */
