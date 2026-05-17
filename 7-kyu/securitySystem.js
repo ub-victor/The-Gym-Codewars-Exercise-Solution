@@ -90,3 +90,24 @@ function securitySystem(
 
 }
 
+// =========================
+// TEST CASES
+// =========================
+
+// Test Case 1
+console.log(
+    securitySystem(false, false, true, true)
+);
+// Output: true
+
+// Test Case 2
+console.log(
+    securitySystem(true, false, false, true)
+);
+// Output: false
+
+// Test Case 3
+console.log(
+    securitySystem(false, false, false, false)
+);
+// Output: true
