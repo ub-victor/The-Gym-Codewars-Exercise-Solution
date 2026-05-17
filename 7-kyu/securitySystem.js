@@ -24,3 +24,5 @@ Circuit Logic
         5. Produce the final alarm output
 
 */
+
+// The function receive 4 boolean sensor values
