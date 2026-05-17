@@ -81,4 +81,6 @@ function securitySystem(
     // Store the result inside finalCheck
     const finalCheck = notGate || motionCheck;
 
+    
+
 }
