@@ -63,4 +63,13 @@ function securitySystem(
 
     const notGate = !sensorCheck;
 
+    // =========================
+    // STEP 4 - OR Gate
+    // =========================
+
+    // Check if either:
+    // notGate is true
+    // OR motionCheck is true
+    // Store the result inside finalCheck
+
 }
