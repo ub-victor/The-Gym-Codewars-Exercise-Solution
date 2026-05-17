@@ -72,4 +72,13 @@ function securitySystem(
     // OR motionCheck is true
     // Store the result inside finalCheck
 
+    // STEP 4 - OR Gate
+    // =========================
+
+    // Check if either:
+    // notGate is true
+    // OR motionCheck is true
+    // Store the result inside finalCheck
+    const finalCheck = notGate || motionCheck
+
 }
