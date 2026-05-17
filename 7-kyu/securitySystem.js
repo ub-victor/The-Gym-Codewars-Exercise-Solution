@@ -9,6 +9,8 @@ The alarm system has 4 sensors:
     - WindowSensor
     - MotionSensor
     - powerSensor
-    And Each sensor
+    And Each sensor gives a boolean value:
+        - true -> sensor is active
+        - false -> sensor is inactive
 
 */
