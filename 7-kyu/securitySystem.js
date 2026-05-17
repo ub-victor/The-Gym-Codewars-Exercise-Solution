@@ -17,6 +17,6 @@ What the circuit should do
     To decide whether the alarm should activate, we need to use(||,&&,!)
 Circuit Logic
     The system follows these steps:
-        1.
+        1.Check
 
 */
