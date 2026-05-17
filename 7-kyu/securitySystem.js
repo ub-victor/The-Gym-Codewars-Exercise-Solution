@@ -79,6 +79,6 @@ function securitySystem(
     // notGate is true
     // OR motionCheck is true
     // Store the result inside finalCheck
-    const finalCheck = notGate || motionCheck
+    const finalCheck = notGate || motionCheck;
 
 }
