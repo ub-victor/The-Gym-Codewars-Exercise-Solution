@@ -52,6 +52,13 @@ function securitySystem(
 
     const motionCheck = motionSensor && powerSensor;
 
-    
+    // =========================
+    // STEP 3 - NOT Gate
+    // =========================
+
+    // Reverse the value of sensorCheck
+    // true becomes false
+    // false becomes true
+    // Store the result inside notGate
 
 }
