@@ -9,5 +9,9 @@ The irrigation system has 4 sensors
     waterTankFull
     manualOverride
 
+    Each sensor returns a boolean value:
+        true -> condition is active
+        false -> condition is inactive
+
 
 */
