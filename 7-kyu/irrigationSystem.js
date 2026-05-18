@@ -13,5 +13,6 @@ The irrigation system has 4 sensors
         true -> condition is active
         false -> condition is inactive
 
-
+    What the system Should Do
+    The watering system should decide whether to water the crops or not.
 */
