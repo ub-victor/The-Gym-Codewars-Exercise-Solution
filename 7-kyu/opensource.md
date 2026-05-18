@@ -23,3 +23,13 @@ you learn
 
 
 architecture - clean code - testing - collaboration - reviews.
+
+b. Building public credibility
+
+c. Networking
+c. Giving back
+e. confidence Growth
+
+Common myths
+
+1. I must be senior to contribute
