@@ -21,6 +21,7 @@ The irrigation system has 4 sensors
     The irrigation controller follows these steps:
     1. Check if the soil is dry OR manual override is enable
     2. Check if rain is falling
+    3. Reverse the rain result using  Not
 
 
 */
