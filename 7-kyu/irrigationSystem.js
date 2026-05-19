@@ -30,5 +30,8 @@ const irrigationSystem(
     rainSensor,
     soilDry,
     waterTankFull,
-    maunal Override
- )
+    maunalOverride
+ )=>{
+
+
+ }
