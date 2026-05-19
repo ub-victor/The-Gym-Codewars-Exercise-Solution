@@ -30,7 +30,7 @@ const irrigationSystem = (
     rainSensor,
     soilDry,
     waterTankFull,
-    maunalOverride
+    manalOverride
  )=>{
     // =========================
     // STEP 1 - OR Gate
@@ -40,6 +40,6 @@ const irrigationSystem = (
     // the soil is dry
     // OR manual watering is enabled
     // Store the result inside dryCheck
-    const dryCheck = soilDry || maunalOverride;
+    const dryCheck = soilDry || manualOverride;
 
  }
