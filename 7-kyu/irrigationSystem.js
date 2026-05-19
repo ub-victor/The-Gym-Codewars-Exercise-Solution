@@ -19,6 +19,7 @@ The irrigation system has 4 sensors
     The circuit uses: ||, && ans ! to make decision
     System Logic
     The irrigation controller follows these steps:
+    1. Check if the soil is dry OR manual override is enable
 
 
 */
