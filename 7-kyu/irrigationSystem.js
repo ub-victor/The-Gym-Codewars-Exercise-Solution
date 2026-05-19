@@ -32,6 +32,13 @@ const irrigationSystem = (
     waterTankFull,
     maunalOverride
  )=>{
-    
+    // =========================
+    // STEP 1 - OR Gate
+    // =========================
+
+    // Check if:
+    // the soil is dry
+    // OR manual watering is enabled
+    // Store the result inside dryCheck
 
  }
