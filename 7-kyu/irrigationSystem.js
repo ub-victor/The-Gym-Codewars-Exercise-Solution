@@ -62,6 +62,8 @@ const irrigationSystem = (
     // AND there is no rain
     // Store the result inside weatherCheck
 
+    const weatherCheck = noRain && dryCheck
+
 
 
  }
