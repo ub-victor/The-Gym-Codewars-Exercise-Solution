@@ -64,6 +64,15 @@ const irrigationSystem = (
 
     const weatherCheck = noRain && dryCheck
 
+    // =========================
+    // STEP 4 - AND Gate
+    // =========================
+
+    // Check if:
+    // weatherCheck is true
+    // AND the water tank is full
+    // Store the result inside wateringDecision
+
 
 
  }
