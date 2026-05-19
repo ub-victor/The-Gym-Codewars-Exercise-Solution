@@ -53,6 +53,15 @@ const irrigationSystem = (
 
     const noRain = !rainSensor;
 
-    
+     // =========================
+    // STEP 3 - AND Gate
+    // =========================
+
+    // Check if:
+    // dryCheck is true
+    // AND there is no rain
+    // Store the result inside weatherCheck
+
+
 
  }
