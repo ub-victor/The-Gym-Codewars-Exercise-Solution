@@ -24,6 +24,5 @@ The irrigation system has 4 sensors
     3. Reverse the rain result using  Not
     4. Check of there is enough water in the tank
     5. Combine everything to decide whether watering should start
-
-
 */
+
