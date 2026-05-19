@@ -40,5 +40,6 @@ const irrigationSystem = (
     // the soil is dry
     // OR manual watering is enabled
     // Store the result inside dryCheck
+    const dryCheck = 
 
  }
