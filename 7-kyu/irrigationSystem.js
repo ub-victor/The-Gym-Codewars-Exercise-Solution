@@ -42,4 +42,15 @@ const irrigationSystem = (
     // Store the result inside dryCheck
     const dryCheck = soilDry || manualOverride;
 
+     // =========================
+    // STEP 2 - NOT Gate
+    // =========================
+
+    // Reverse the rain sensor value
+    // If it is raining (true) -> becomes false
+    // If it is not raining (false) -> becomes true
+    // Store the result inside noRain
+
+    const noRain = !rainSensor;
+
  }
