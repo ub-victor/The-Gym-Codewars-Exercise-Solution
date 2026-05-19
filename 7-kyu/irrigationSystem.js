@@ -17,6 +17,8 @@ The irrigation system has 4 sensors
     The watering system should decide whether to water the crops or not.
 
     The circuit uses: ||, && ans ! to make decision
+    System Logic
+    The irrigation controller follows these steps:
 
 
 */
