@@ -26,7 +26,7 @@ The irrigation system has 4 sensors
     5. Combine everything to decide whether watering should start
 */
 
-const irrigationSystem(
+const irrigationSystem = (
     rainSensor,
     soilDry,
     waterTankFull,
