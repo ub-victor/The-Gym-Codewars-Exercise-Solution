@@ -82,4 +82,27 @@ const irrigationSystem = (
     // Return the final watering decision
 
     return wateringDecision;
- }
+}
+
+
+// =========================
+// TEST CASES
+// =========================
+
+// Test Case 1
+console.log(
+    irrigationSystem(false, true, true, false)
+);
+// Output: true
+
+// Test Case 2
+console.log(
+    irrigationSystem(true, true, true, false)
+);
+// Output: false
+
+// Test Case 3
+console.log(
+    irrigationSystem(false, false, true, true)
+);
+// Output: true
