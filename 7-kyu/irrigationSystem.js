@@ -75,7 +75,11 @@ const irrigationSystem = (
 
     const wateringDecision = weatherCheck && waterTankFull;
 
-    
+    // =========================
+    // FINAL OUTPUT
+    // =========================
+
+    // Return the final watering decision
 
 
 
