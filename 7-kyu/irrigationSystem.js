@@ -81,6 +81,8 @@ const irrigationSystem = (
 
     // Return the final watering decision
 
+    return wateringDecision;
+
 
 
 
