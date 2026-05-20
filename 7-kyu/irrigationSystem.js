@@ -31,7 +31,7 @@ const irrigationSystem = (
     soilDry,
     waterTankFull,
     manalOverride
- )=>{
+)=>{
     // =========================
     // STEP 1 - OR Gate
     // =========================
@@ -74,7 +74,7 @@ const irrigationSystem = (
     // Store the result inside wateringDecision
 
     const wateringDecision = weatherCheck && waterTankFull;
-    
+
 
 
 
