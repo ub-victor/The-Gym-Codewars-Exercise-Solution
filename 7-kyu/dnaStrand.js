@@ -7,5 +7,29 @@ A-> T
 T->A
 C->G
 G->C
+so ATTGC -> TAACG
 
 */
+
+const dnaStrand = (dna)=>{
+    let result="";
+    for(char of dna){
+    switch (char){
+        case "A":
+          result += "T";
+          break;
+        case "T":
+          result += "A";
+          break;
+        case "C":
+          result += "G";
+          break;
+        case "G":
+          result += "C";
+          break;
+    }
+  }
+  return result;
+}
+
+console.log(dnaStrand("ATTGC"));
