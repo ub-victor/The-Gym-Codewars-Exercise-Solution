@@ -2,7 +2,20 @@
 Imagine you are playing a game called Pixelville
 Inside the game, there is:
 
+    - A magical well with water
+    - Several flasks (containers) of different sizes
+    - One big overhead tank that must be filled
 
+The important Rules
+
+You are given flask sizes like this:
+[3,4,5,2]
+This means you have:
+    - A 3-liter flask
+    - A 4-liter flask
+    - A 5-liter flask
+    - A 2-liter flask
+Here our mission : to fill a tank that needs 14 liters
 
 
 */
