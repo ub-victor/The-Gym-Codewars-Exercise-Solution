@@ -5,5 +5,6 @@
 // Return the results as an array or list ( depending on language ).
 
 const countBy = (x, n) => {
+    let mul = n*x;
 
 }
