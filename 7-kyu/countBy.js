@@ -13,3 +13,5 @@ const countBy = (x, n) => {
     return z;
 
 }
+
+console.log(countBy(1,10));
