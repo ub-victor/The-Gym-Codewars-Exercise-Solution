@@ -6,5 +6,6 @@
 
 const countBy = (x, n) => {
     let mul = n*x;
+    let z = [];
 
 }
