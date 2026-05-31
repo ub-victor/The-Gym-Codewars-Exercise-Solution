@@ -8,7 +8,8 @@ const countBy = (x, n) => {
     let mul = n*x;
     let z = [];
     for (let i = z; i<= mul; i+=x){
-        
+        z.push(i)
     }
+    return z;
 
 }
