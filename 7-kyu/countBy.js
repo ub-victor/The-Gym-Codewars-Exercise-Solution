@@ -7,7 +7,7 @@
 const countBy = (x, n) => {
     let mul = n*x;
     let z = [];
-    for (let i = z; i<= mul; i+=x){
+    for (let i = x; i<= mul; i+=x){
         z.push(i)
     }
     return z;
