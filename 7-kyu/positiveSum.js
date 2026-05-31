@@ -1,4 +1,4 @@
-const positiveSum = () => {
+const positiveSum = (arr) => {
     let result = 0;
     for(let i=0; i< arr.length; arr ++){
         if(arr[i]>0){
