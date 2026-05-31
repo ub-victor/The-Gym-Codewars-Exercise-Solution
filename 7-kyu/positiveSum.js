@@ -1,11 +1,22 @@
+// const positiveSum = (arr) => {
+//     let result = 0;
+//     for(let i=0; i< arr.length; i++){
+//         if(arr[i]>0){
+//             result += arr[i];
+//         }
+//     }
+//     return result;
+// }
+
 const positiveSum = (arr) => {
     let result = 0;
-    for(let i=0; i< arr.length; i++){
-        if(arr[i]>0){
-            result += arr[i];
+    for(let i of arr){
+        if( i > 0 ){
+            result += i;
         }
     }
     return result;
 }
+
 
 console.log(positiveSum([1,16,-1,-16]))
