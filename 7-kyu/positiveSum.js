@@ -1,0 +1,4 @@
+const positiveSum = () => {
+    
+    return result;
+}
