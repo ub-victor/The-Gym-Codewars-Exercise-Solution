@@ -15,7 +15,7 @@ This means you have:
     - A 4-liter flask
     - A 5-liter flask
     - A 2-liter flask
-Here our mission : to fill a tank that needs 14 liters
+Here our mission : to fill a tank that needs 14 liters, and we will choose only ine flask size
 
 
 */
