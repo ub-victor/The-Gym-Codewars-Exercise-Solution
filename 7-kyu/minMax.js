@@ -6,4 +6,7 @@ const minMax = (arr) =>{
     let right = Math.max(...arr);
 
     result.push(left, right);
+
 }
+
+console.log(minMax([1,2,3,4,5,6]));
