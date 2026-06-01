@@ -1,3 +1,3 @@
-const minMax = () =>{
-    
+const minMax = (arr) =>{
+    // The spread  
 }
