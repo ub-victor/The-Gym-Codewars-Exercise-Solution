@@ -5,5 +5,5 @@ const minMax = (arr) =>{
     let left = Math.min(...arr);
     let right = Math.max(...arr);
 
-    
+    result.push(left, right);
 }
