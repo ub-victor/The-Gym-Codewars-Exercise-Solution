@@ -3,7 +3,10 @@ const minMax = (arr) =>{
     // Math.max(...arr) becomes Math.max(3,4,5,6,7,4,3,2,9,5)
     // console.log(Math.max(3, 7, 2, 9, 1, 5)) //9
     // const maximum = Math.max(numbers)
-    // 
+    /*
+        Math.max(3, 7, 2, 9, 1, 5)   // ✅ 9
+        Math.max([3, 7, 2, 9, 1, 5])  // ❌ NaN (passes one array, not the numbers)
+    */
     let result = [];
     let left = Math.min(...arr);
     let right = Math.max(...arr);
