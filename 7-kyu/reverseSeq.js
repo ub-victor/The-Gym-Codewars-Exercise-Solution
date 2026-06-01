@@ -6,4 +6,4 @@ const reverseSeq = n => {
     return fin;
 }
 
-console.log(reverseSeq(5));
+console.log(reverseSeq(5)); 
