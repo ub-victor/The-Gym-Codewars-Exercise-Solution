@@ -36,5 +36,11 @@ const getCount = (flaskSizes, waterAvailable, tankVolume)=>{
     if(waterAvailable < tankVolume ){
         return [-1, -1]
     }
-    
+
+    // =========================
+    // VARIABLES
+    // =========================
+
+    // Store the best flask size found
+    // Start with -1 because no flask chosen yet
 }
