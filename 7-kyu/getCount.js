@@ -44,4 +44,8 @@ const getCount = (flaskSizes, waterAvailable, tankVolume)=>{
     // Store the best flask size found
     // Start with -1 because no flask chosen yet
     let bestFlask = -1;
+
+    // Store the minimum number of draws
+    // Start with Infinity so any smaller number replaces it
+
 }
