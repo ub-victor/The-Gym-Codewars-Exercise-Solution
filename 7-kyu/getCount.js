@@ -47,5 +47,6 @@ const getCount = (flaskSizes, waterAvailable, tankVolume)=>{
 
     // Store the minimum number of draws
     // Start with Infinity so any smaller number replaces it
+    let minDraws = Infinity;
 
 }
