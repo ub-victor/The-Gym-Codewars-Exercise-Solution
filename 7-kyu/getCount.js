@@ -49,4 +49,10 @@ const getCount = (flaskSizes, waterAvailable, tankVolume)=>{
     // Start with Infinity so any smaller number replaces it
     let minDraws = Infinity;
 
+    // =========================
+    // LOOP THROUGH ALL FLASKS
+    // =========================
+
+    // Check every flask inside flaskSizes
+
 }
