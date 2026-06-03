@@ -33,4 +33,8 @@ const getCount = (flaskSizes, waterAvailable, tankVolume)=>{
 
     // If available water is smaller than tank volume,
     // filling the tank is impossible
+    if(waterAvailable < tankVolume ){
+        return [-1, -1]
+    }
+    
 }
