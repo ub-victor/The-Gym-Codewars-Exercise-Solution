@@ -27,5 +27,10 @@ Here our mission : to fill a tank that needs 14 liters, and we will choose only 
 // tankVolume -> size of the tank to fill
 
 const getCount = (flaskSizes, waterAvailable, tankVolume)=>{
-    
+    // =========================
+    // IMPOSSIBLE CASE
+    // =========================
+
+    // If available water is smaller than tank volume,
+    // filling the tank is impossible
 }
