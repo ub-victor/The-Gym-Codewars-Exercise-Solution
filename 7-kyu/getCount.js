@@ -55,6 +55,11 @@ const getCount = (flaskSizes, waterAvailable, tankVolume)=>{
 
     // Check every flask inside flaskSizes
 
-    
+    for(let flask of flaskSizes){
+        // calculate required draws
+        // Math.ceil rounds up
+        let draws = Math.ceil(tankVolume/ flask);
+        
+    }
 
 }
