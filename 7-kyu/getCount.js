@@ -19,3 +19,13 @@ Here our mission : to fill a tank that needs 14 liters, and we will choose only 
 
 
 */
+
+// Create a function named getCount
+// The function receives:
+// flaskSizes -> array of flask capacities
+// waterAvailable -> total water available
+// tankVolume -> size of the tank to fill
+
+const getCount = (flaskSizes, waterAvailable, tankVolume)=>{
+    
+}
