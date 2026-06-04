@@ -10,3 +10,4 @@ const between = (a, b) => {
     return arr;
 }
 
+console.log(between(5,4));
