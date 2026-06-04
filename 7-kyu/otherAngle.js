@@ -5,3 +5,6 @@
 // angle1 = 60
 // angle2 = 50
 
+// Then:
+
+// third angle = 180 - (60 + 50) = 70
