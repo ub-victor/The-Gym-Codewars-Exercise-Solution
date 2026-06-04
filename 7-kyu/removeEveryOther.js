@@ -7,5 +7,15 @@ Keep the element at index 2
 Remove the element at index 3
 And so on...
 
+In other words, keep elements with even indexes (0, 2, 4, 6, ...).The problem asks you to:
+
+Keep the element at index 0
+Remove the element at index 1
+Keep the element at index 2
+Remove the element at index 3
+And so on...
+
 In other words, keep elements with even indexes (0, 2, 4, 6, ...).
+
+
  */
