@@ -13,4 +13,4 @@ const otherAngle = (a, b)=>{
     return 180 - (a+b);
 }
 
-console.log(otherAngle(40,50));
+console.log(otherAngle(40,50)); 
