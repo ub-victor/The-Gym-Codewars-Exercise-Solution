@@ -1,5 +1,5 @@
 function numberToString(num) {
-    return toString(num);
+    return num.toString();
 }
 
 console.log(numberToString(-111));
