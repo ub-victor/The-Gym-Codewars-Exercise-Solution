@@ -22,6 +22,4 @@ Keep   Remove    Keep   Remove    Keep
 
 Solution using filter()
 
-
-
  */
