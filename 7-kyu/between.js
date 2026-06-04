@@ -7,4 +7,5 @@ const between = (a, b) => {
     }else{
         return "Check the value of a and b";
     }
+    return arr;
 }
