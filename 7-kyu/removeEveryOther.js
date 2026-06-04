@@ -17,5 +17,8 @@ And so on...
 
 In other words, keep elements with even indexes (0, 2, 4, 6, ...).
 
+0        1         2       3         4
+Keep   Remove    Keep   Remove    Keep
+
 
  */
