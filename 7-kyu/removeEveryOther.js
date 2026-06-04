@@ -21,4 +21,5 @@ In other words, keep elements with even indexes (0, 2, 4, 6, ...).
 Keep   Remove    Keep   Remove    Keep
 
 
+
  */
