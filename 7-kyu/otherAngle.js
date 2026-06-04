@@ -8,3 +8,7 @@
 // Then:
 
 // third angle = 180 - (60 + 50) = 70
+
+const otherAngle(a, b)=>{
+    
+}
