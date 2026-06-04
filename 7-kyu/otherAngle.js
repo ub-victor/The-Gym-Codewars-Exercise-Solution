@@ -1,1 +1,1 @@
-// A triangle always has 3 interior angles and their total sum is always:
+// A triangle always has 3 interior angles and their total sum is always: 180°
