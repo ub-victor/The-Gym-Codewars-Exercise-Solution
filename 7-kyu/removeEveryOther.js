@@ -28,3 +28,13 @@ const removeEveryOther = (arr)=>{
 }
 
 console.log(removeEveryOther(["Keep", "Remove", "Keep", "Remove", "Keep"]));
+
+function removeEveryOther(arr){
+  let arrs = [];
+  for(let i =0; i< arr.length; i+=2){
+    arrs.push(arr[i]);
+  }
+  return arrs
+}
+
+console.log(removeEveryOther(['Hello', 'Goodbye', 'Hello Again']))
