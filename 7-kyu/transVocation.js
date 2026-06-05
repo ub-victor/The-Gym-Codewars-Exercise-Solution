@@ -16,7 +16,7 @@ const rentalCarCost = (d)=>{
     if (d >=7 ){
         return (dayCost* d) - 50;
     }else if(d >=3){
-        return( dayCost* d)
+        return( dayCost* d) - 20;
     }else{
         return dayCost * d;
     }
