@@ -10,4 +10,4 @@ const quarterOf = (month)=>{
     if(month>=12) return 4;
 }
 
-console.log(month(7))
+console.log(quarterOf(7));
