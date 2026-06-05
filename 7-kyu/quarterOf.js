@@ -9,3 +9,5 @@ const quarterOf = (month)=>{
     if(month>=9) return 3;
     if(month>=12) return 4;
 }
+
+console.log(month(7))
