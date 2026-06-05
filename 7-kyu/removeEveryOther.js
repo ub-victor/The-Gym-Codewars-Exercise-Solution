@@ -24,5 +24,7 @@ Solution using filter()
  */
 
 const removeEveryOther = (arr)=>{
-    
+    return arr.filter((element, index)=> index % 2 == 0)
 }
+
+console.log(removeEveryOther([Keep, Remove, Keep, Remove, Keep]));
