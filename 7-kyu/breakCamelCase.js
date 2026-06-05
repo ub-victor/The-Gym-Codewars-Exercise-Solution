@@ -8,7 +8,8 @@ const breakCamelCase = (str)=>{
     () → capture the letter
     g → find all matches
     
-    
+    add a space " "
+    then put back the matched letter ($1)
     */
     return str.replace(/([A-Z])/g , " $1");
 }
