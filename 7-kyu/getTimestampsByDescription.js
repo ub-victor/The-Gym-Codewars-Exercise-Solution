@@ -1,3 +1,5 @@
 /*
+Imagine a security monitoring system.
+
 
 */
