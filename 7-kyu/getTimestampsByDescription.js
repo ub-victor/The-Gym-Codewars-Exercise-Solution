@@ -36,4 +36,5 @@ The job is:
 We need four major steps
 
 Find every <event> inside the XML, loop through all events one by one 
+Then extract Description for each event: <description>Intrusion ended</description> read the <description>Intrusion ended</description>
 */
