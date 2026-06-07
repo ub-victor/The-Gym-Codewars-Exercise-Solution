@@ -19,6 +19,8 @@ Each event contains:
         - Store inside a <description> tag.
         eg: <description>Intrusion ended</description>
 
-
+2. What does the function need to do?
+    The function receives:
+    getTimestampsByDescription(xml, description)
 
 */
