@@ -22,7 +22,7 @@ Each event contains:
 2. What does the function need to do?
     The function receives:
     getTimestampsByDescription(xml, description)
-
+eg: getTimestampsByDescription(xml, description)
 
 
 */
