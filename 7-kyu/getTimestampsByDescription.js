@@ -40,4 +40,7 @@ Then extract Description for each event: <description>Intrusion ended</descripti
 Then the important step here is to Compare  by checking eventDescription === description
 So if eventDescription === description it will result true , when true  get the timestamp="1614286432"
 then after getting the timestamps we store it timestamps.push(1614286432);
+
+4. Algorithm Before Coding
+
 */
