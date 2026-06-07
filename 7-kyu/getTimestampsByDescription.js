@@ -29,6 +29,7 @@ The job is:
     Find events whose description matches : Intrusion ended
         Collect their timestamps
         Return them as an array.
+    If it does not match we skip it
 
 
 */
