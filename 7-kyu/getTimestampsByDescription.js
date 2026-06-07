@@ -24,5 +24,6 @@ Each event contains:
     getTimestampsByDescription(xml, description)
 eg: getTimestampsByDescription(xml, description)
 
+The job is:
 
 */
