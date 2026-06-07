@@ -35,5 +35,5 @@ The job is:
 
 We need four major steps
 
-
+Find every <event> inside the XML, loop through all events one by one
 */
