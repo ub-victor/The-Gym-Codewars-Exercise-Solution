@@ -33,5 +33,7 @@ The job is:
 
 3. How Do we Solve it?
 
+We need four major steps
+
 
 */
