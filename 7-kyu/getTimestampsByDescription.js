@@ -43,4 +43,17 @@ then after getting the timestamps we store it timestamps.push(1614286432);
 
 4. Algorithm Before Coding
 
+Create empty array
+
+Find all events
+
+For each event
+    Get description
+
+    If description matches requested description
+        Get timestamp
+        Convert timestamp to number
+        Save in array
+
+Return array
 */
