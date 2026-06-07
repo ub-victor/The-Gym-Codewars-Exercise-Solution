@@ -17,6 +17,6 @@ Each event contains:
         - eg: 1614285589
     2. A description
         - Store inside a <description> tag.
-        eg: 
+        eg: <description>Intrusion ended</description>
 
 */
