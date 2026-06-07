@@ -31,7 +31,7 @@ The job is:
         Return them as an array.
     If it does not match we skip it
 
-3. Hoe Do we Solve it?
+3. How Do we Solve it?
 
 
 */
