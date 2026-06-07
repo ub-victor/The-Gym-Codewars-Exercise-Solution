@@ -39,5 +39,5 @@ Find every <event> inside the XML, loop through all events one by one
 Then extract Description for each event: <description>Intrusion ended</description> read the <description>Intrusion ended</description>
 Then the important step here is to Compare  by checking eventDescription === description
 So if eventDescription === description it will result true , when true  get the timestamp="1614286432"
-
+then after getting the timestamps we store it timestamps.push(1614286432);
 */
