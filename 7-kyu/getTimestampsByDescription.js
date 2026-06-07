@@ -22,8 +22,9 @@ Each event contains:
 2. What does the function need to do?
     The function receives:
     getTimestampsByDescription(xml, description)
-eg: getTimestampsByDescription(xml, description)
+eg: getTimestampsByDescription(xmlData, "Intrusion ended")
 
 The job is:
-
+    Look through all events.
+    Find events whose description matches : getTimestampsByDescription(xml, description)
 */
