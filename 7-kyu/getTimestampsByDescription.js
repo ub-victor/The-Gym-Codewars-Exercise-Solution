@@ -12,6 +12,7 @@ eg:
             <description>Intrusion ended</description>
         </event>
 Each event contains:
-
+    1. A timestamp 
+        - Store as an attribute.
 
 */
