@@ -26,5 +26,5 @@ eg: getTimestampsByDescription(xmlData, "Intrusion ended")
 
 The job is:
     Look through all events.
-    Find events whose description matches : getTimestampsByDescription(xml, description)
+    Find events whose description matches : Intrusion ended
 */
