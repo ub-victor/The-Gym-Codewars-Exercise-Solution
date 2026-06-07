@@ -14,5 +14,8 @@ eg:
 Each event contains:
     1. A timestamp 
         - Store as an attribute.
+        - eg: 1614285589
+    2. A description
+        - Store inside a <description> tag.
 
 */
