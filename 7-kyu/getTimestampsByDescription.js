@@ -65,4 +65,8 @@ const getTimestampsByDescription = (xml, description) =>{
 
     // Convert the XML string into an XML document
     const xmlDoc = parser.parseFromString(xml, "text/xml");
+
+    // Get all <event> elements from the XML
+    const event = xmlDoc.getElementsByTagName("event");
+
 }
