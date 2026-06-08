@@ -85,7 +85,10 @@ const getTimestampsByDescription = (xml, description) =>{
         const eventDescription =
             descriptionElement.textContent.trim();
         // Check whether the description matches the target description
-        
+
+        if(eventDescription === description){
+            
+        }
 
 
     }
