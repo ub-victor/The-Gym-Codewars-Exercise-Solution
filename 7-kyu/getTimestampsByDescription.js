@@ -72,7 +72,8 @@ const getTimestampsByDescription = (xml, description) =>{
     //Create an array that will store matching timestamps
     const timestamps = [];
 
-    // Loop through every that will store matching timestamps
+    // Loop through every event found in thr XML
     
+
 
 }
