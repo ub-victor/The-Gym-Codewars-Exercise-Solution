@@ -55,6 +55,6 @@ For each event
         Convert timestamp to number
         Save in array
 
-Return array of timestamp choosen
+Return array of timestamp retrieve
 
 */
