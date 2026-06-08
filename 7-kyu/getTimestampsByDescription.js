@@ -69,4 +69,6 @@ const getTimestampsByDescription = (xml, description) =>{
     // Get all <event> elements from the XML
     const event = xmlDoc.getElementsByTagName("event");
 
+    //Create an array that will store matching timestamps
+
 }
