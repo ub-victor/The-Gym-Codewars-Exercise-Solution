@@ -59,7 +59,8 @@ Return array of timestamp retrieve
 
 */
 
-const getTimestampsByDescription = (xml, description) =>{
+function getTimestampsByDescription(xml, description) {
+
     // Create an XML parser
     const parser = new DOMParser();
 
@@ -67,17 +68,18 @@ const getTimestampsByDescription = (xml, description) =>{
     const xmlDoc = parser.parseFromString(xml, "text/xml");
 
     // Get all <event> elements from the XML
-    const event = xmlDoc.getElementsByTagName("event");
+    const events = xmlDoc.getElementsByTagName("event");
 
-    //Create an array that will store matching timestamps
+    // Create an array that will store matching timestamps
     const timestamps = [];
 
-    // Loop through every event found in thr XML
-    for(let i = 0; i< event.length; i++){
-        // Get the current event
-        const event = event[i];
+    // Loop through every event found in the XML
+    for (let i = 0; i < events.length; i++) {
 
-        //Find the <description> tag inside the current event
+        // Get the current event
+        const event = events[i];
+
+        // Find the <description> tag inside the current event
         const descriptionElement =
             event.getElementsByTagName("description")[0];
 
@@ -86,22 +88,21 @@ const getTimestampsByDescription = (xml, description) =>{
             descriptionElement.textContent.trim();
 
         // Check whether the description matches the target description
-        if(eventDescription === description){
+        if (eventDescription === description) {
+
             // Get the timestamp attribute from the event tag
             const timestamp =
                 event.getAttribute("timestamp");
 
-                // Convert the timestamp string into an integer
-                const timestampNumber =
-                    parserInt(timestamp, 10);
+            // Convert the timestamp string into an integer
+            const timestampNumber =
+                parseInt(timestamp, 10);
 
-                    // Add the timestamp to the result array
-                    timestamps.push(timestampNumber);
+            // Add the timestamp to the result array
+            timestamps.push(timestampNumber);
         }
     }
-    
+
     // Return all matching timestamps
     return timestamps;
-
-
 }
