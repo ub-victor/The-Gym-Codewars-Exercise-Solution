@@ -96,6 +96,7 @@ const getTimestampsByDescription = (xml, description) =>{
                     parserInt(timestamp, 10);
 
                     // Add the timestamp to the result array
+                    timestamps.push(timestampNumber);
         }
 
 
