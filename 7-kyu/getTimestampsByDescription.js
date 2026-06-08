@@ -99,7 +99,6 @@ const getTimestampsByDescription = (xml, description) =>{
                     timestamps.push(timestampNumber);
         }
     }
-
     // Return all matching timestamps
     return timestamps;
 
