@@ -93,7 +93,7 @@ const getTimestampsByDescription = (xml, description) =>{
 
                 // Convert the timestamp string into an integer
                 const timestampNumber =
-                    
+                    parserInt(timestamp, 10);
         }
 
 
