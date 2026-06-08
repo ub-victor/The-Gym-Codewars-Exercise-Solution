@@ -84,6 +84,7 @@ const getTimestampsByDescription = (xml, description) =>{
         // Extract the text from the description tag
         const eventDescription =
             descriptionElement.textContent.trim();
+        
 
 
     }
