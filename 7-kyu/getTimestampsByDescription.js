@@ -116,3 +116,5 @@ function getTimestampsByDescription(xml, description) {
     // Return all matching timestamps
     return timestamps;
 }
+
+console.log(getTimestampsByDescription(xml, "Intrusion ended"));
