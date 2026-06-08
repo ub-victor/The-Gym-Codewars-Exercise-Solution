@@ -92,6 +92,8 @@ const getTimestampsByDescription = (xml, description) =>{
                 event.getAttribute("timestamp");
 
                 // Convert the timestamp string into an integer
+                const timestampNumber =
+                    
         }
 
 
