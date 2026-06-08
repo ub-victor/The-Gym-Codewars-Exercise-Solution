@@ -100,5 +100,7 @@ const getTimestampsByDescription = (xml, description) =>{
         }
     }
 
+    // Return all matching timestamps
+
 
 }
