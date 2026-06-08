@@ -98,8 +98,6 @@ const getTimestampsByDescription = (xml, description) =>{
                     // Add the timestamp to the result array
                     timestamps.push(timestampNumber);
         }
-
-
     }
 
 
