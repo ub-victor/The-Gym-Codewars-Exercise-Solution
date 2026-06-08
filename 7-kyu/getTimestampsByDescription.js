@@ -60,7 +60,6 @@ Return array of timestamp retrieve
 */
 
 function getTimestampsByDescription(xml, description) {
-
     // Create an XML parser
     const parser = new DOMParser();
 
