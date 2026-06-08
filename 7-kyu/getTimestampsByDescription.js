@@ -57,6 +57,8 @@ For each event
 
 Return array of timestamp retrieve
 
+install = npm install @xmldom/xmldom
+
 */
 const { DOMParser } = require('@xmldom/xmldom');
 const xml =
