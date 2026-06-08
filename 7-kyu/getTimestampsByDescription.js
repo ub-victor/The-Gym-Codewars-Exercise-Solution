@@ -58,3 +58,7 @@ For each event
 Return array of timestamp retrieve
 
 */
+
+const getTimestampsByDescription = (xml, description) =>{
+    
+}
