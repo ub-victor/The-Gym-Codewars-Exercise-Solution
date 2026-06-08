@@ -74,7 +74,8 @@ const getTimestampsByDescription = (xml, description) =>{
 
     // Loop through every event found in thr XML
     for(let i = 0; i< event.length; i++){
-        
+        // Get the current event
+        const event = event[i];
     }
 
 
