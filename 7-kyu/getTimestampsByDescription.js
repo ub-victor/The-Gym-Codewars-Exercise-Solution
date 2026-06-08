@@ -60,7 +60,7 @@ Return array of timestamp retrieve
 */
 
 function getTimestampsByDescription(xml, description) {
-    const xml = 
+    const xml =
         `<data>
             <event timestamp="1614285589">
                 <description>Intrusion detected</description>
@@ -68,6 +68,7 @@ function getTimestampsByDescription(xml, description) {
             <event timestamp="1614286432">
                 <description>Intrusion ended</description>
             </event>
+
         </data>`;
 
     // Create an XML parser
