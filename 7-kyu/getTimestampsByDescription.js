@@ -59,8 +59,7 @@ Return array of timestamp retrieve
 
 */
 const { DOMParser } = require('@xmldom/xmldom');
-function getTimestampsByDescription(xml, description) {
-    const xml =
+const xml =
         `<data>
             <event timestamp="1614285589">
                 <description>Intrusion detected</description>
@@ -70,7 +69,7 @@ function getTimestampsByDescription(xml, description) {
             </event>
 
         </data>`;
-
+function getTimestampsByDescription(xml, description) {
     // Create an XML parser
     const parser = new DOMParser();
 
