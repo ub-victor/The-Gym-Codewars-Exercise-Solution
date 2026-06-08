@@ -70,6 +70,6 @@ const getTimestampsByDescription = (xml, description) =>{
     const event = xmlDoc.getElementsByTagName("event");
 
     //Create an array that will store matching timestamps
-    
+    const timestamps = [];
 
 }
