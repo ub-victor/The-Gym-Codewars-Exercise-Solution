@@ -30,8 +30,8 @@ const getTimestampsByDescription (xml, description)=>{
     <event - Matches the literal opening tag
     [\s\S]*? - This is the key point
     [\s\S] = matches any character: \s Matches Whitespace spacee, tabs, newlines
-    \S matches non-whitesspace. Togethet with \s they match absolutely anything.
-    * mean zero or mpre of the preceding charater.
+    \S matches non-whitespace. Together with \s they match absolutely anything.
+    * mean zero or more of the preceding charater.
     ? makes it lazy(non-greedy), so it matches the smallest possible amount rather tht the largest
     
     */
