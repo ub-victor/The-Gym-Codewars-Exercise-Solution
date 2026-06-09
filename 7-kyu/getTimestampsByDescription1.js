@@ -44,9 +44,9 @@ const getTimestampsByDescription (xml, description)=>{
     const events = xml.match(/<event[\s\S]*?<\/event>/g);
     /*
     events = [
-  '<event timestamp="1614285589">\n        <description>Intrusion detected</description>\n    </event>',
-  '<event timestamp="1614286432">\n        <description>Intrusion ended</description>\n    </event>'
-]
+        '<event timestamp="1614285589">\n        <description>Intrusion detected</description>\n    </event>',
+        '<event timestamp="1614286432">\n        <description>Intrusion ended</description>\n    </event>'
+    ]
     */
 
     // Loop th
