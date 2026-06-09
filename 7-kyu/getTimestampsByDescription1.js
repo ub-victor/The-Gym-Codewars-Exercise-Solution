@@ -82,6 +82,10 @@ const getTimestampsByDescription = (xml, description)=>{
             . Any charater (except newline by default)
             * Zero or more times
             ? Lazy = match as few characters as possible
+            descriptionMatch = [
+                '<description>Intrusion detected</description',  // [0] — full match
+                'Intrusion detected'                             // [1] — captured group (.*?)
+            ]
         */
         const descriptionMatch =
             event.match(/<description>(.*?)<\/description/);
