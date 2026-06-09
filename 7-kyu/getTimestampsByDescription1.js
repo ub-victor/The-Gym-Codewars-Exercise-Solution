@@ -26,7 +26,7 @@ const getTimestampsByDescription (xml, description)=>{
     // Find all event blocks
     /*
     It will find all <event> ... </event>
-    
+    / /g = the g flag means "global" fins all matches, not just the fist one
     */
     const events = xml.match(/<event[\s\S]*?<\/event>/g);
 }
