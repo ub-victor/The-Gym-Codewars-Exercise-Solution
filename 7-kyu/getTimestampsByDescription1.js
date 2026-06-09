@@ -78,7 +78,7 @@ const getTimestampsByDescription = (xml, description)=>{
 
         // Extract description
         const descriptionMatch =
-            
+            event.match(/<description>(.*?)<\/description/);
     }
 
 }
