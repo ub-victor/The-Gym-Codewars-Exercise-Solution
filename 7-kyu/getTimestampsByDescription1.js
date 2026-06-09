@@ -54,7 +54,8 @@ const getTimestampsByDescription (xml, description)=>{
     for (const event of events){
         // Extract timestamp
         /*
-            
+            timestamp = Matches the literal timestamp
+            = Matches the literal = sign
         */
         const timestampMatch = event.match(/timestamp="(\d+)"/);
     }
