@@ -57,7 +57,8 @@ const getTimestampsByDescription = (xml, description)=>{
             timestamp = Matches the literal timestamp
             = Matches the literal = sign
             """ Matches the literal  opening/closing quote
-            (\d+) Capturing group \d means any difit (0-9), + means one or moretimes
+            (\d+) Capturing group \d means any digit (0-9), + means one or more times
+            and it will match the first digit only as we didn't make is global
 
         */
         const timestampMatch = event.match(/timestamp="(\d+)"/);
