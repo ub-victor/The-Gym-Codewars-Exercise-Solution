@@ -51,6 +51,9 @@ const getTimestampsByDescription (xml, description)=>{
     */
 
     // Loop through each event
-    
+    for (const event of events){
+        // Extract timestamp
+        const timestampMatch = event.match(/timestamp="(\d+)"/);
+    }
 
 }
