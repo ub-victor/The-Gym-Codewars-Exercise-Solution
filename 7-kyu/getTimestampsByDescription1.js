@@ -24,5 +24,9 @@ const getTimestampsByDescription (xml, description)=>{
     const timestamps = [];
 
     // Find all event blocks
+    /*
+    It will find all <event> ... </event>
+    
+    */
     const events = xml.match(/<event[\s\S]*?<\/event>/g);
 }
