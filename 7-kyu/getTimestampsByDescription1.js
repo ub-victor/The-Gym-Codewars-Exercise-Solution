@@ -27,6 +27,8 @@ const getTimestampsByDescription (xml, description)=>{
     /*
     It will find all <event> ... </event>
     / /g = the g flag means "global" fins all matches, not just the fist one first one
+    <event - Matches the literal opening tag
+    [\s\S]*? - This is the key point
     */
     const events = xml.match(/<event[\s\S]*?<\/event>/g);
 }
