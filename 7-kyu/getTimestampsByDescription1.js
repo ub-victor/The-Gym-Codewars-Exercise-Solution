@@ -36,8 +36,8 @@ const getTimestampsByDescription (xml, description)=>{
     <\/event> matches the leteral closing tag
     eg: <event id="1">Hello</event>
         <event id="2">World</event>
+        match returns: ["<event id=\"1\">Hello</event>", "<event id=\"2\">World</event>"]
 
-        
     */
     const events = xml.match(/<event[\s\S]*?<\/event>/g);
 
