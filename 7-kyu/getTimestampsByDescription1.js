@@ -63,6 +63,15 @@ const getTimestampsByDescription = (xml, description)=>{
                 'timestamp="1614285589"',  // [0] — complete matched text
                 '1614285589'               // [1] — just what's inside the capturing group ()
             ]
+            Regex:    /timestamp="(\d+)"/
+                                ↑___↑
+                                Parentheses = capture group
+
+            Input:    timestamp="1614285589"
+
+            Match result:
+            [0] = 'timestamp="1614285589"'   ← The ENTIRE matched pattern
+            [1] = '1614285589'                ← ONLY what's inside the parentheses (\d+)
 
         */
         const timestampMatch = event.match(/timestamp="(\d+)"/);
