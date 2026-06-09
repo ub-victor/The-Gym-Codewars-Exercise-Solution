@@ -18,3 +18,7 @@ const xml = `
     </event>
 </data>
 `;
+
+const getTimestampsByDescription (xml, description)=>{
+    
+}
