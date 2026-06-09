@@ -6,3 +6,15 @@ Here is the idea to follow
 4. Compare the description
 5. Save the timestamp if it matches
 */
+
+const xml = `
+<data>
+    <event timestamp="1614285589">
+        <description>Intrusion detected</description>
+    </event>
+
+    <event timestamp="1614286432">
+        <description>Intrusion ended</description>
+    </event>
+</data>
+`;
