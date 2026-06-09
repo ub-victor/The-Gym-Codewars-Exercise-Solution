@@ -91,6 +91,12 @@ const getTimestampsByDescription = (xml, description)=>{
             event.match(/<description>(.*?)<\/description/);
 
         const eventDescription = description[1];
+
+        // Compare description
+        if(eventDescription === description){
+            // Save timestam as number
+            timestamps.push(Number(timestampMatch[1]))
+        }
     }
 
 }
