@@ -34,6 +34,10 @@ const getTimestampsByDescription (xml, description)=>{
     * mean zero or more of the preceding charater.
     ? makes it lazy(non-greedy), so it matches the smallest possible amount rather tht the largest
     <\/event> matches the leteral closing tag
+    eg: <event id="1">Hello</event>
+        <event id="2">World</event>
+
+        
     */
     const events = xml.match(/<event[\s\S]*?<\/event>/g);
 
