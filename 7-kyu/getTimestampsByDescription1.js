@@ -56,6 +56,7 @@ const getTimestampsByDescription (xml, description)=>{
         /*
             timestamp = Matches the literal timestamp
             = Matches the literal = sign
+            " Matches the literal  opening quote
         */
         const timestampMatch = event.match(/timestamp="(\d+)"/);
     }
