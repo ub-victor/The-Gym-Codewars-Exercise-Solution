@@ -31,8 +31,10 @@ const getTimestampsByDescription (xml, description)=>{
     [\s\S]*? - This is the key point
     [\s\S] = matches any character: \s Matches Whitespace spacee, tabs, newlines
     \S matches non-whitespace. Together with \s they match absolutely anything.
-    * mean zero or more of the preceding charater.
-    ? makes it lazy(non-greedy), so it matches the smallest possible amount rather tht the largest
+    * The * means "repeat the previous thing zero or more times". "1", "11"
+    When ? comes after a quantifier like *, +, or {}, it flips the behavior from greedy to lazy (or non-greedy / minimal).
+    <.*> = Matches the entire string: "<a>X</a><b>Y</b>"
+    <.?> = Matches: "<a>" (stops at the first >)
     <\/event> matches the leteral closing tag
     eg: <event id="1">Hello</event>
         <event id="2">World</event>
@@ -40,5 +42,7 @@ const getTimestampsByDescription (xml, description)=>{
 
     */
     const events = xml.match(/<event[\s\S]*?<\/event>/g);
+
+    
 
 }
