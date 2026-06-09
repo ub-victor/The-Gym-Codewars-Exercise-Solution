@@ -75,6 +75,8 @@ const getTimestampsByDescription = (xml, description)=>{
 
         */
         const timestampMatch = event.match(/timestamp="(\d+)"/);
+
+        
     }
 
 }
