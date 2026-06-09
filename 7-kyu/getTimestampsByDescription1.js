@@ -98,5 +98,6 @@ const getTimestampsByDescription = (xml, description)=>{
             timestamps.push(Number(timestampMatch[1]))
         }
     }
+    return timestamps;
 
 }
