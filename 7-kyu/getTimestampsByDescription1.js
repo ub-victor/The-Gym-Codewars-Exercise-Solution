@@ -47,6 +47,7 @@ const getTimestampsByDescription (xml, description)=>{
         '<event timestamp="1614285589">\n        <description>Intrusion detected</description>\n    </event>',
         '<event timestamp="1614286432">\n        <description>Intrusion ended</description>\n    </event>'
     ]
+    Without the ?, the regex would be greedy and match everything from the first <event to the LAST </event>, giving you just one giant match:
     */
 
     // Loop th
