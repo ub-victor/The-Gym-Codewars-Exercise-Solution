@@ -30,6 +30,8 @@ const getTimestampsByDescription (xml, description)=>{
     <event - Matches the literal opening tag
     [\s\S]*? - This is the key point
     [\s\S] = matches any character: \s Matches Whitespace () 
+    
     */
     const events = xml.match(/<event[\s\S]*?<\/event>/g);
+
 }
