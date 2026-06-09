@@ -90,7 +90,7 @@ const getTimestampsByDescription = (xml, description)=>{
         const descriptionMatch =
             event.match(/<description>(.*?)<\/description/);
 
-        const eventDescription = description[1];
+        const eventDescription = descriptionMatch[1];
 
         // Compare description
         if(eventDescription === description){
