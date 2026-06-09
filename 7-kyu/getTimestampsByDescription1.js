@@ -22,5 +22,7 @@ const xml = `
 const getTimestampsByDescription (xml, description)=>{
     // Array for matching timestamps
     const timestamps = [];
+
+    // Find all event blocks
     
 }
