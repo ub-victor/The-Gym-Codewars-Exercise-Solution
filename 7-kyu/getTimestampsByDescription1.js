@@ -56,7 +56,7 @@ const getTimestampsByDescription (xml, description)=>{
         /*
             timestamp = Matches the literal timestamp
             = Matches the literal = sign
-            " Matches the literal  opening quote
+            """ Matches the literal  opening/closing quote
             (\d+) Capturing group \d means any difit (0-9), + means one or moretimes
 
         */
