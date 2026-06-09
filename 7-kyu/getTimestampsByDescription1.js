@@ -101,3 +101,7 @@ const getTimestampsByDescription = (xml, description)=>{
     return timestamps;
 
 }
+
+console.log(
+    getTimestampsByDescription(xml, "Intrusion ended")
+);
