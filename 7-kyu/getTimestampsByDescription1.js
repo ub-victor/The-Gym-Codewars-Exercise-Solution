@@ -78,7 +78,8 @@ const getTimestampsByDescription = (xml, description)=>{
 
         // Extract description
         /*
-            
+            () Capturing group = captures whatever matches inside for [1]
+            . Any charater (except newline by default)
         */
         const descriptionMatch =
             event.match(/<description>(.*?)<\/description/);
