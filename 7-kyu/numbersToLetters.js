@@ -67,7 +67,7 @@ const numbersToLetters = (stringOfNumbers)=>{
             const number = parseInt(numbers[j]);
 
             // Convert the number into a letter
-            
+            const letter = String.fromCharCode(64+number);
         }
 
 
