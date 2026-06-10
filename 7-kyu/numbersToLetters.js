@@ -18,6 +18,7 @@ split by spaces: ["20 5 19 20"] convert to number
 Then the second
 Then the important part
 First how do we convert a number into a letter?
+js provides us build method 'fromCharCode'  => String.fromCharCode()
 
 
 
