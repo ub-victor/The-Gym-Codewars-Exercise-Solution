@@ -70,7 +70,7 @@ const numbersToLetters = (stringOfNumbers)=>{
             /* String.fromCharCode(65) looks up the character at ASCII code 65, which is "A". */
             const letter = String.fromCharCode(64+number);
 
-            // 
+            // Add the letter to the current word
 
 
         }
