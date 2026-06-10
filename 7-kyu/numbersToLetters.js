@@ -24,6 +24,23 @@ Which will be string.fromCharCode(64 + 1) = String.fromCharCode(65) which is A
 In short the index of alphabet form 1 + 64  gives the UTF-16 code units for Alphabet
 String.fromCharCode(83) = S , 19+64 = 83
 
+Here is the Algorithm Before Coding
+
+Split sentence by +
+
+For each word
+
+    Split word by spaces
+
+    For each number
+
+        Convert number to letter
+
+    Join letters to make a word
+
+Join all words using spaces
+
+Return result
 
 
 
