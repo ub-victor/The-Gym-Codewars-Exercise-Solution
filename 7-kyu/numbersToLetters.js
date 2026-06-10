@@ -50,4 +50,5 @@ const numbersToLetters(stringOfNumbers)=>{
     const words = stringOfNumbers.split("+") // we will get two arrays
 
     // Create an array that will store decoded words
+    const decodedWords = [];
 }
