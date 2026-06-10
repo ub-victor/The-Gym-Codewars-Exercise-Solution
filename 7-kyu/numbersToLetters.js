@@ -54,6 +54,6 @@ const numbersToLetters = (stringOfNumbers)=>{
 
     // Loop through every word
     for( let i = 0; i < words.length; i++) {
-        
+        // Split the current word into individual numbers
     }
 }
