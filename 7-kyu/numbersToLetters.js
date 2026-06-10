@@ -71,9 +71,9 @@ const numbersToLetters = (stringOfNumbers)=>{
             const letter = String.fromCharCode(64+number);
 
             // Add the letter to the current word
-            decodedWord += letter;
+            decodedWord += letter; 
         }
-        
+
 
 
     }
