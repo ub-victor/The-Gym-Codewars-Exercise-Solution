@@ -48,4 +48,6 @@ const numbersToLetters(stringOfNumbers)=>{
 
     // Split the sentence into words using "+"
     const words = stringOfNumbers.split("+") // we will get two arrays
+
+    
 }
