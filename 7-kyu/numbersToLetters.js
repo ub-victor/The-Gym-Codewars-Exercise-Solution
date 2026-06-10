@@ -76,8 +76,5 @@ const numbersToLetters = (stringOfNumbers)=>{
 
         // Save the complete word
         decodedWords.push(decodedWord);
-
-
-
     }
 }
