@@ -65,6 +65,8 @@ const numbersToLetters = (stringOfNumbers)=>{
 
             // Convert the string number into an actual number
             const number = parseInt(numbers[j]);
+
+            // 
         }
 
 
