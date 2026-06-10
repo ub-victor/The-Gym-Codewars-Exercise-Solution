@@ -16,6 +16,8 @@ split by spaces: ["20 5 19 20"] convert to number
 19 → S
 20 → T
 Then the second
+Then the important part
+
 
 
 
