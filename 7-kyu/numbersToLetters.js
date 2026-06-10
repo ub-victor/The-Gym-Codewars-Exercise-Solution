@@ -22,7 +22,7 @@ js provides us build method 'fromCharCode'  => String.fromCharCode()
 It gives A = 65,B = 66 so 1 = A we can do String.fromCharCode(64+ number) 
 Which will be string.fromCharCode(64 + 1) = String.fromCharCode(65) which is A
 In short the index of alphabet form 1 + 64  gives the UTF-16 code units for Alphabet
-String.fromCharCode(83) = S, 
+String.fromCharCode(83) = S , 19+64 = 83
 
 
 
