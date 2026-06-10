@@ -60,7 +60,8 @@ const numbersToLetters = (stringOfNumbers)=>{
         // Variable that will store the decoded word
         let decodedWord = "";
 
-        // Loop thought each number 
+        // Loop thought each number
+        for(let )
 
 
     }
