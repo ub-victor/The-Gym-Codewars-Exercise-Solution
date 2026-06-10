@@ -46,5 +46,6 @@ Return result
 
 const numbersToLetters(stringOfNumbers)=>{
 
-    // 
+    // Split the sentence into words using "+"
+    
 }
