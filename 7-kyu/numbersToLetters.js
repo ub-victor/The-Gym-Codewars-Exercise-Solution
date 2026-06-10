@@ -5,7 +5,7 @@ Conversion table : 1 = A, 2 = B
 eg: numbersToLetters('20 5 19 20+4 15 13 5') should return "TEST DOME"
 
 Here is how I thing to solve this
-
+Suppose somebody gives you:
 
 
 */
