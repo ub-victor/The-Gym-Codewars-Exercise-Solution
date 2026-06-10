@@ -44,7 +44,7 @@ Return result
 
 */
 
-const numbersToLetters(stringOfNumbers)=>{
+const numbersToLetters = (stringOfNumbers)=>{
 
     // Split the sentence into words using "+"
     const words = stringOfNumbers.split("+") // we will get two arrays
@@ -54,6 +54,6 @@ const numbersToLetters(stringOfNumbers)=>{
 
     // Loop through every word
     for( let i = 0; i < words.length; i++) {
-        
+
     }
 }
