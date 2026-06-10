@@ -19,7 +19,8 @@ Then the second
 Then the important part
 First how do we convert a number into a letter?
 js provides us build method 'fromCharCode'  => String.fromCharCode()
-It gives A = 65,B = 66 so 1 = A we can do String.fromCharCode(64+ number) Which can 
+It gives A = 65,B = 66 so 1 = A we can do String.fromCharCode(64+ number) 
+Which will be string.fromCharCode(64 + 1) = String.fromCharCode(65)
 
 
 
