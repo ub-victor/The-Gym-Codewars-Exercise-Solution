@@ -80,3 +80,5 @@ const numbersToLetters = (stringOfNumbers)=>{
     // Join all decoded words with spaces
     return decodedWords.join(" ")
 }
+
+console.log(numbersToLetters("20 5 19 20+4 15 13 5"));
