@@ -8,7 +8,8 @@ Here is how I thing to solve this
 Suppose somebody gives you:
 20 5 19 20+4 15 13 5
 
-
+step 1 : Separate the words where we found + we split with comma space
+["20 5 19 20"]
 
 
 */
