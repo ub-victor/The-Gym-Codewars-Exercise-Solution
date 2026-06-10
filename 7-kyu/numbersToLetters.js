@@ -10,7 +10,12 @@ Suppose somebody gives you:
 
 step 1 : Separate the words where we found + we split with
 ["20 5 19 20", "4 15 13 5"] Now we know we have word 1 word 2
-split by spaces: ["20 5 19 20"]
+split by spaces: ["20 5 19 20"] convert to number 
+20 → T
+5  → E
+19 → S
+20 → T
+Then the second
 
 
 
