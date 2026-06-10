@@ -64,7 +64,7 @@ const numbersToLetters = (stringOfNumbers)=>{
         for(let j = 0; j < numbers.length; j++){
 
             // Convert the string number into an actual number
-            const letter = String.fromCharCode(64 + numbers);
+            
         }
 
 
