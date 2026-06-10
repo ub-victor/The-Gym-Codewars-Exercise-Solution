@@ -29,7 +29,7 @@ const getTimestampsByDescription = (xml, description)=>{
     / /g = the g flag means "global" fins all matches, not just the fist one first one
     <event - Matches the literal opening tag
     [\s\S]*? - This is the key point
-    [\s\S] = matches any character: \s Matches Whitespace space, tabs, newlines
+    [\s\S] = matches any character: \s Matches Whitespace spacee, tabs, newlines
     \S matches non-whitespace. Together with \s they match absolutely anything.
     * The * means "repeat the previous thing zero or more times". "1", "11"
     When ? comes after a quantifier like *, +, or {}, it flips the behavior from greedy to lazy (or non-greedy / minimal).
