@@ -44,4 +44,4 @@ Return result
 
 */
 
-const 
+const numbersToLetters(stringOfNumbers)
