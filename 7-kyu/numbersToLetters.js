@@ -78,5 +78,5 @@ const numbersToLetters = (stringOfNumbers)=>{
         decodedWords.push(decodedWord);
     }
     // Join all decoded words with spaces
-    
+    return decodedWords.join(" ")
 }
