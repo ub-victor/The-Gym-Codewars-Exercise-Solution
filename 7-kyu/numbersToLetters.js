@@ -17,7 +17,7 @@ split by spaces: ["20 5 19 20"] convert to number
 20 → T
 Then the second
 Then the important part
-
+First how do we convert a number into a letter?
 
 
 
