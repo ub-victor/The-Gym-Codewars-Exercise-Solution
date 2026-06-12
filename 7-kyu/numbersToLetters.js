@@ -75,7 +75,7 @@ const numbersToLetters = (stringOfNumbers)=>{
         }
 
         // Save the complete word
-        decodedWords.push(decodedWord);  
+        decodedWords.push(decodedWord);
     }
     // Join all decoded words with spaces
     // So this work like this decodedWords.join(" ") => "TEST DOME" as the initial array is ["TEST", "DOME"]
