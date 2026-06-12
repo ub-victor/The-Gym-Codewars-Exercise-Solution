@@ -61,7 +61,7 @@ const numbersToLetters = (stringOfNumbers)=>{
         let decodedWord = "";
 
         // Loop thought each number
-        for(let j = 0; j < numbers.length; j++){
+        for(let j = 0; j < numbers.length; j++){ 
 
             // Convert the string number into an actual number
             const number = parseInt(numbers[j]);
