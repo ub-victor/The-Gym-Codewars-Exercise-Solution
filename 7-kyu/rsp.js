@@ -12,5 +12,8 @@ Examples:
 "scissors",     "rock"      --> "Player 2 won!"
 "paper",        "paper"     --> "Draw!"
 
-
 */
+
+const rsp = (p1, p2) => {
+    
+}
