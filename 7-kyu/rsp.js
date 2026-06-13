@@ -15,7 +15,7 @@ Examples:
 */
 
 const rsp = (p1, p2) => {
-    if(p1 = p2) return "Draw!"
+    if(p1 === p2) return "Draw!"
 
     if(
         (p1 === "scissors" && p2 === "paper") ||
