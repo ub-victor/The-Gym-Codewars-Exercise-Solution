@@ -5,6 +5,6 @@ strarr = ["tree", "foling", "trashy", "blue", "abcdef", "uvwxyz"]
 k = 2
 
 The challenge asks:
-    Take K consecutive strings 
+    Take K consecutive strings from the array, join them together, and find the longest resulting string
 
 */
