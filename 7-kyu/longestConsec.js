@@ -22,6 +22,8 @@ Group 5: "abcdef" + "uvwxyz" = "abcdefuvwxyz" its length 12
 Here he have two longest length strings but there're two 
 and the instruction says If there're  several longrst strings , return the FIRST one.
 
+Also instruction
+
 
 
 
