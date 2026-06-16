@@ -8,6 +8,6 @@ The challenge asks:
     Take K consecutive strings from the array, join them together, and find the longest resulting string 
 Then what does Consecutive mean?
     Consecutive means next to each in the array
-eg: ["tree", "foling"] Is consecutive because   
+eg: ["tree", "foling"] Is consecutive because  
 
 */
