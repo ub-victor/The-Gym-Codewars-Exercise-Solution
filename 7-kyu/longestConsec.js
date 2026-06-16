@@ -24,7 +24,10 @@ and the instruction says If there're  several longrst strings , return the FIRST
 
 Also instruction says
     If array is empty  return ""
-K
+K is greater than array length
+["a", "b"]
+k = 3
+Impossible to take 3 consecutive string return ""
 
 
 
