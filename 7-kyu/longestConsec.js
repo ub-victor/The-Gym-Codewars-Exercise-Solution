@@ -15,8 +15,9 @@ We will build alll possible groups
     k = 2, we take 2 neighboring strings at a time
 Group 1: "tree" + "foling" = "treefoling" its length is 10
 Group 2: "foling" + "trashy" = "folingtrashy" it length is 12
-Group 3: ""trashy" + "blue" = "trashyblue" its lenghth is 10 
+Group 3: ""trashy" + "blue" = "trashyblue" its length is 10 
 Group 4: "abcdef" + "uvwxyz" = "abcdefuvwxyz" its length is 10
+Group 5: "abcdef" + "uvwxyz" = "abcdefuvwxyz" its length 12
 
 
 
