@@ -9,5 +9,6 @@ The challenge asks:
 Then what does Consecutive mean?
     Consecutive means next to each in the array
 eg: ["tree", "foling"] Is consecutive because they are neighbors
+but ["tree", "trashy"] is Not consecutive because "foling" is between them
 
 */
