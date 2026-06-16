@@ -19,4 +19,6 @@ Group 3: ""trashy" + "blue" = "trashyblue" its lenghth is 10
 
 
 
+
+
 */
