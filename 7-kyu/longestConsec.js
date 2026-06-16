@@ -14,6 +14,7 @@ but ["tree", "trashy"] is Not consecutive because "foling" is between them
 We will build alll possible groups 
     k = 2, we take 2 neighboring strings at a time
 Group 1: "tree" + "foling" = "treefoling" its length is 10
+Group 2: "foling" + "trashy" = "folingtrashy" it length is 12
 
 
 
