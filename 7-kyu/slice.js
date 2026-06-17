@@ -13,4 +13,4 @@ console.log(slice1);
 
 const slice2 =  animals.slice(2,6);
 
-console.log(slice2); 
+console.log(slice2);
