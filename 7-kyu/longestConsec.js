@@ -49,5 +49,9 @@ const longestConsec = (starr, k) => {
 
     for (let i = 0; i <= n -k; i++ ){
         let current = starr.slice(i, i + k).join("");
+
+        if(current.length > longest.length){
+            longest = current;
+        }
     }
 }
