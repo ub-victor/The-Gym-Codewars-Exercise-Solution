@@ -48,7 +48,7 @@ const longestConsec = (starr, k) => {
     let  longest = "";
 
     for (let i = 0; i <= n -k; i++ ){
-        // Here we just extract the current value plus the value on it next the 3rd one excluded. 
+        // Here we just extract the current value plus the value on it next the 3rd one excluded. the with join both of them
         let current = starr.slice(i, i + k).join("");
 
         if(current.length > longest.length){
