@@ -5,6 +5,9 @@ Here is the idea to follow
 3. Get its `description`
 4. Compare the description
 5. Save the timestamp if it matches
+
+// ✅ This is MUTATION — modifying the array's contents
+timestamps.push(1614286432);  // Works fine
 */
 
 const xml = `
