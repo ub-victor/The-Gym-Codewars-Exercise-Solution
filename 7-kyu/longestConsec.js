@@ -44,4 +44,6 @@ const longestConsec = (starr, k) => {
     if(n === 0 || k > n || k <=0){
         return "";
     }
+
+    let  longest = ""
 }
