@@ -39,3 +39,4 @@ For every possible starting position
     4. Keep track of the longest one.
 */
 
+const longestConsec
