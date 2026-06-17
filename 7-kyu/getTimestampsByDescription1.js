@@ -8,6 +8,9 @@ Here is the idea to follow
 
 // ✅ This is MUTATION — modifying the array's contents
 timestamps.push(1614286432);  // Works fine
+
+// ❌ This is REASSIGNMENT — pointing timestamps to a different value
+timestamps = [1614286432];    // TypeError: Assignment to constant variable
 */
 
 const xml = `
