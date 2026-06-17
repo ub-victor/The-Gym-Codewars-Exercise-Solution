@@ -1,5 +1,5 @@
 /*
-
+You're fiven an array(list) starr of strings and an integer K, You task is to return 
 
 We are given  this
 
