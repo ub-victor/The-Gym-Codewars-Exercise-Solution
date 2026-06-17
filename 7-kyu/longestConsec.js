@@ -45,5 +45,5 @@ const longestConsec = (starr, k) => {
         return "";
     }
 
-    let  longest = ""
+    let  longest = "";
 }
