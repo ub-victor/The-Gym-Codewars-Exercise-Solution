@@ -1,5 +1,5 @@
 /*
-You're fiven an array(list) starr of strings and an integer K, You task is to return the first longest string consisting of K consecutive string taken in the array.
+You're given an array(list) starr of strings and an integer K, You task is to return the first longest string consisting of K consecutive string taken in the array.
 
 We are given  this
 
