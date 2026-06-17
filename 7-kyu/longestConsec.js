@@ -57,3 +57,4 @@ const longestConsec = (starr, k) => {
     return longest;
 }
 
+console.log(["ant", "bison", "camel", "duck", "elephant"],2)
