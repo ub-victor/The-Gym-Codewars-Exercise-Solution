@@ -1,5 +1,5 @@
 /*
-You're fiven an array(list) starr of strings and an integer K, You task is to return the first longest string
+You're fiven an array(list) starr of strings and an integer K, You task is to return the first longest string 
 
 We are given  this
 
