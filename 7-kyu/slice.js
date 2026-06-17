@@ -12,3 +12,5 @@ const slice1 = animals.slice(2,4) //4 not included
 console.log(slice1);
 
 const slice2 =  animals.slice(2,6);
+
+console.log(slice2);
