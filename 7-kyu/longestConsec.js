@@ -48,6 +48,6 @@ const longestConsec = (starr, k) => {
     let  longest = "";
 
     for (let i = 0; i <= n -k; i++ ){
-        
+        let current = s
     }
 }
