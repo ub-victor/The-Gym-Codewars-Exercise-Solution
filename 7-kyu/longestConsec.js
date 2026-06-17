@@ -35,7 +35,8 @@ We'll use a sliding window idea
 For every possible starting position
     1. Take k Strings.
     2. Join them.
-    
+    3. Check its length
+
 
 
 */
