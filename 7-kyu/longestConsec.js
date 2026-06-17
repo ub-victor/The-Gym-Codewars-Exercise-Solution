@@ -37,9 +37,4 @@ For every possible starting position
     2. Join them.
     3. Check its length
     4. Keep track of the longest one.
-
-    
-
-
-
 */
