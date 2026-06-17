@@ -33,7 +33,7 @@ Impossible to take 3 consecutive string return ""
 
 We'll use a sliding window idea
 For every possible starting position
-    1. 
+    1. Take k Strings.
 
 
 */
