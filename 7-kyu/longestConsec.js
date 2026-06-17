@@ -41,4 +41,7 @@ For every possible starting position
 
 const longestConsec = (starr, k) => {
     const n = starr.length;
+    if(n === 0 || k > n || k <=0){
+        
+    }
 }
