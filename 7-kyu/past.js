@@ -1,5 +1,5 @@
 /*
 00:01:01
-Your 
+Your task is to return the time elapsed since midnight in millisecinds.
 
 */
