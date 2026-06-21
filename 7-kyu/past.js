@@ -11,6 +11,10 @@ Your task is to return the time elapsed since midnight in milliseconds.
 Human thinking before coding
 
 If someone asked you:
-    "How any miliseconds have passed since midnight?"
+    "How any milliseconds have passed since midnight?"
     You would:
+Step 1
+    Convert howrs into milliseconds.
+Step 2. 
+
 */
