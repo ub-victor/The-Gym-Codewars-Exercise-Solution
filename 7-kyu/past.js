@@ -22,4 +22,6 @@ Step 3
 Step 4
     Add them all together
 Simple formula to use
+
+milliseconds = 
 */
