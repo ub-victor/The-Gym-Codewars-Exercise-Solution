@@ -16,5 +16,6 @@ If someone asked you:
 Step 1
     Convert howrs into milliseconds.
 Step 2. 
+    Convert minutes into  milliseconds.
 
 */
