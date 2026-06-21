@@ -11,6 +11,5 @@ Your task is to return the time elapsed since midnight in milliseconds.
 Human thinking before coding
 
 If someone asked you:
-
-
+    
 */
