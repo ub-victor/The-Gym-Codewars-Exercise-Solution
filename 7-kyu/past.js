@@ -21,4 +21,5 @@ Step 3
     Convert seconds into milliseconds
 Step 4
     Add them all together
+Simple formula to use
 */
