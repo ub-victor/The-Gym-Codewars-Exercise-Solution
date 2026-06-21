@@ -10,5 +10,7 @@ Your task is to return the time elapsed since midnight in milliseconds.
     = 3 600 000 + 3600 + 1000 =  3 600 4 600
 Human thinking before coding
 
+If someone asked you:
+
 
 */
