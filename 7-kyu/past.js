@@ -15,7 +15,11 @@ If someone asked you:
     You would:
 Step 1
     Convert howrs into milliseconds.
-Step 2. 
+Step 2.
     Convert minutes into  milliseconds.
+Step 3
+    Convert seconds into milliseconds
+Step 4
+    Add them all together
 
 */
