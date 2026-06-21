@@ -26,4 +26,7 @@ Simple formula to use
 milliseconds = 
 (hours * 3600000)
 +
+(minuteS * 60000)
++
+(seconds * 1000)
 */
