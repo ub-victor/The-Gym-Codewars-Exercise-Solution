@@ -3,5 +3,7 @@ Create a function that takes an integer as an argument and returns "Even" for ev
 */
 
 function evenOrOdd(number) {
-
+ if(number % 2 === 0){
+    return "Even"
+ }else
 }
