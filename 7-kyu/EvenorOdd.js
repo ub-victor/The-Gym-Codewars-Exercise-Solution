@@ -9,3 +9,5 @@ function evenOrOdd(number) {
     return "Even"
  }
 }
+
+console.log(evenOrOdd(3))
