@@ -61,5 +61,7 @@ if both are true , return true otherwise return false
 */
 
 const isValidWalk = (walk) => {
-    
+    if(walk.lenght !==10){
+        return false
+    }
 }
