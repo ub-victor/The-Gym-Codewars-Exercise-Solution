@@ -58,6 +58,4 @@ Algorithm
     north === south
     and east === west
 if both are true , return true otherwise return false
-
-
 */
