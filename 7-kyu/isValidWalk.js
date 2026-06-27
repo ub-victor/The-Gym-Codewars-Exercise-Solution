@@ -59,3 +59,4 @@ Algorithm
     and east === west
 if both are true , return true otherwise return false
 */
+
