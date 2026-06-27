@@ -53,6 +53,7 @@ Algorithm
 1. Is the  array length 10?
     No - > false
 2. count
+    north , south , east, west
 
 
 
