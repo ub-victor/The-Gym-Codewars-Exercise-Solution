@@ -24,7 +24,15 @@ Every movement must be cancelled by its opposite.
 
 north <-> south and east <-> west
 ['n','n','s','s']
+work
+Start
 
+↑
+↑
+↓
+↓
+
+Back to start
 
 
 
