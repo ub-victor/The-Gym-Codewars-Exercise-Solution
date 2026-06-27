@@ -70,7 +70,7 @@ const isValidWalk = (walk) => {
     let east = 0;
     let west = 0;
 
-for (let directions of walk){
-    
-}
-}
+    for (let directions of walk){
+        if(directions )
+    }
+    }
