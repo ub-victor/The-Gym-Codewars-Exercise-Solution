@@ -22,7 +22,7 @@ Con2: You must end where you started
 
 Every movement must be cancelled by its opposite.
 
-north <-> south
+north <-> south and east <-> west
 
 
 */
