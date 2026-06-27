@@ -8,4 +8,8 @@ Each letter moves you one block:
     - "s" -> move down
     - "e" -> move right
     - "w" -> move left
+
+For the function to return true, two conditions must be satisfied.
+
+
 */
