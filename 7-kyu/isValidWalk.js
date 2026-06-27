@@ -16,6 +16,6 @@ Since each step takes 1 minute, the array must contain exactly 10 directions.
 
 ['n','s','n','s','n','s','n','s','n','s'] There are 10 letters -> which is 10 minutes
 
-
+['n','s','e']
 
 */
