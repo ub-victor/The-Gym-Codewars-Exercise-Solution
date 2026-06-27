@@ -7,5 +7,5 @@ Each letter moves you one block:
     - "n" -> move up
     - "s" -> move down
     - "e" -> move right
-    - "n" -> move up
+    - "w" -> move left
 */
