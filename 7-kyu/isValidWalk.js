@@ -20,4 +20,6 @@ Since each step takes 1 minute, the array must contain exactly 10 directions.
 
 Con2: You must end where you started
 
+Every movement must be cancelled by its opposite.
+
 */
