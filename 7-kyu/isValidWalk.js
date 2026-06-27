@@ -57,7 +57,7 @@ Algorithm
 3. compare 
     north === south
     and east === west
-
+if both are true , return true otherwise return false
 
 
 */
