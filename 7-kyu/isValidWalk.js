@@ -3,5 +3,7 @@ Take a Ten Minutes Walk
 
 Imagine you are standing at point (0,0) on a map
 
-
+Each letter moves you one block:
+    - "n" -> move up
+    - "s" -> move down
 */
