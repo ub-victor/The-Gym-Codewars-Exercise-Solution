@@ -34,7 +34,18 @@ Start
 
 Back to start
 
+['n','n','n','s']
 
+Start
+
+↑
+↑
+↑
+↓
+
+End here
+
+You're still one block north of where you started
 
 
 
