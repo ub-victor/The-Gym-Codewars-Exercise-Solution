@@ -64,4 +64,9 @@ const isValidWalk = (walk) => {
     if(walk.lenght !==10){
         return false
     }
+
+    let north  = 0;
+    let south = 0;
+    let east = 0;
+    let west = 0;
 }
