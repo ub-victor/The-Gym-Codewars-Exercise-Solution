@@ -79,3 +79,4 @@ const isValidWalk = (walk) => {
     }
     return north === south && east === west;
 }
+
