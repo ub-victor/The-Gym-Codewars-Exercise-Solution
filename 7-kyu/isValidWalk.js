@@ -18,6 +18,6 @@ Since each step takes 1 minute, the array must contain exactly 10 directions.
 
 ['n','s','e'] Only 3 letters -> false and the walk is exactky 10.
 
-Con2: 
+Con2: You must end where you started
 
 */
