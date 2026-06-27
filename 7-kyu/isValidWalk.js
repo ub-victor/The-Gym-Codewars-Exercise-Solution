@@ -11,5 +11,5 @@ Each letter moves you one block:
 
 For the function to return true, two conditions must be satisfied.
 
-Con1: 
+Con1: The walk must last exactly 10 minutes
 */
