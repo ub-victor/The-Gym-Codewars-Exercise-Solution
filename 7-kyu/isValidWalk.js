@@ -14,5 +14,5 @@ For the function to return true, two conditions must be satisfied.
 Con1: The walk must last exactly 10 minutes
 Since each step takes 1 minute, the array must contain exactly 10 directions.
 
-
+['n','s','n','s','n','s','n','s','n','s'] There are 10 letters -> which is 10 minutes
 */
