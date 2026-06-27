@@ -54,6 +54,9 @@ Algorithm
     No - > false
 2. count
     north , south , east, west
+3. compare 
+    north === south
+    and east === west
 
 
 
