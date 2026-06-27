@@ -69,4 +69,6 @@ const isValidWalk = (walk) => {
     let south = 0;
     let east = 0;
     let west = 0;
+
+for ()
 }
