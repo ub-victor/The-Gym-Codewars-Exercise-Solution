@@ -71,12 +71,12 @@ const isValidWalk = (walk) => {
     let west = 0;
 
     for (let directions of walk){
-        if(directions === "n") north ++; 
+        if(directions === "n") north ++;
         if(directions === "s") south ++;
         if(directions === "e") east ++; 
         if(directions === "w") west ++;
 
     }
-    return north === south && east === west;  d
+    return north === south && east === west;
 }
 
