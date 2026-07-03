@@ -81,5 +81,5 @@ const numbersToLetters = (stringOfNumbers)=>{
     // So this work like this decodedWords.join(" ") => "TEST DOME" as the initial array is ["TEST", "DOME"]
     return decodedWords.join(" ")
 }
- 
+
 console.log(numbersToLetters("20 5 19 20+4 15 13 5"));
