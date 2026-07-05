@@ -42,6 +42,7 @@ Join all words using spaces
 
 Return result
 
+
 */
 
 const numbersToLetters = (stringOfNumbers)=>{
