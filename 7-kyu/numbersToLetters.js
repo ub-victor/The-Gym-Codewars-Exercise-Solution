@@ -40,7 +40,7 @@ For each word
 
 Join all words using spaces
 
-Return result 
+Return result
 
 */
 
