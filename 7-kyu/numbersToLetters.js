@@ -67,6 +67,9 @@ const numbersToLetters = (stringOfNumbers) =>{
             const number = parseInt(numbers[j]);
 
             // Convert the number into a letter
+            /*
+            
+            */
         }
     }
 }
