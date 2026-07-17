@@ -58,6 +58,6 @@ const numbersToLetters = (stringOfNumbers) =>{
         const number = words[i].split(" ");
 
         // Variable that will store the decoded word
-        
+        let decodedWord = "";
     }
 }
