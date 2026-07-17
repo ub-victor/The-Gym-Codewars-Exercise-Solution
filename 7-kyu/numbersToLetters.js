@@ -44,3 +44,4 @@ Return result
 
 */
 
+const numbersToLetters = (stringOfNumbers)
