@@ -55,12 +55,14 @@ const numbersToLetters = (stringOfNumbers) =>{
     // Loop through every word
     for (let i = 0; words.length; i++){
         // Split the current word into individual numbers
-        const number = words[i].split(" ");
+        const numbers = words[i].split(" ");
 
         // Variable that will store the decoded word
         let decodedWord = "";
 
         // Loop thought each number
-        
+        for(let j = 0; j < numbers.length; j++ ){
+            
+        }
     }
 }
