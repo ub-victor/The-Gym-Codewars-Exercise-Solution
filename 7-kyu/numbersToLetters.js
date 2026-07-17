@@ -52,5 +52,5 @@ const numbersToLetters = (stringOfNumbers) =>{
     // Create an array that will store decoded words
     const decodedWords = [];
 
-    
+    // Loop through every word
 }
