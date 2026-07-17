@@ -72,6 +72,14 @@ const numbersToLetters = (stringOfNumbers) =>{
             const letter = String.fromCharCode(64+number);
 
             // Add the letter to the current word
+            decodedWord += letter;
         }
+        // Save the complete word
+        decodedWords.push(decodedWord)
     }
+    // Join all decoded words with spaces
+    // So this work like this decodedWords.join(" ") => "TEST DOME" as the initial array is ["TEST", "DOME"]
+    return decodedWords.join(" ")
 }
+
+console.log(numbersToLetters("20 5 19 20+4 15 13 5"));
