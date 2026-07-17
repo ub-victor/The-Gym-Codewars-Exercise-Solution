@@ -69,6 +69,9 @@ const numbersToLetters = (stringOfNumbers) =>{
             // Convert the number into a letter
             /*String.fromCharCode(65) looks up the character at ASCII code 65
             Which is "A"*/
+            const letter = String.fromCharCode(64+number);
+
+            // Add the letter to the current word
         }
     }
 }
