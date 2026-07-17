@@ -44,3 +44,42 @@ Return result
 
 */
 
+const numbersToLetters = (stringOfNumbers)=>{
+
+    // Split the sentence into words using "+"
+    const words = stringOfNumbers.split("+") // we will get two arrays
+
+    // Create an array that will store decoded words
+    const decodedWords = [];
+
+    // Loop through every word
+    for( let i = 0; i < words.length; i++) {
+        // Split the current word into individual numbers
+        const numbers = words[i].split(" ");
+
+        // Variable that will store the decoded word
+        let decodedWord = "";
+
+        // Loop thought each number
+        for(let j = 0; j < numbers.length; j++){ 
+
+            // Convert the string number into an actual number
+            const number = parseInt(numbers[j]);
+
+            // Convert the number into a letter
+            /* String.fromCharCode(65) looks up the character at ASCII code 65, which is "A". */
+            const letter = String.fromCharCode(64+number);
+
+            // Add the letter to the current word
+            decodedWord += letter;
+        }
+
+        // Save the complete word
+        decodedWords.push(decodedWord);
+    }
+    // Join all decoded words with spaces
+    // So this work like this decodedWords.join(" ") => "TEST DOME" as the initial array is ["TEST", "DOME"]
+    return decodedWords.join(" ")
+}
+
+console.log(numbersToLetters("20 5 19 20+4 15 13 5"));
