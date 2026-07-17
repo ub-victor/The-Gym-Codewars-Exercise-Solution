@@ -61,6 +61,6 @@ const numbersToLetters = (stringOfNumbers) =>{
         let decodedWord = "";
 
         // Loop thought each number
-        
+         
     }
 }
