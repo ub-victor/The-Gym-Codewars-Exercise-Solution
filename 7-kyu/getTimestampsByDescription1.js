@@ -56,6 +56,7 @@ const getTimestampsByDescription = (xml, description)=>{
     Without the ?, the regex would be greedy and match everything from the first <event to the LAST </event>, giving you just one giant match:
     */
 
+    
     // Loop through each event
     for (const event of events){
         // Extract timestamp
