@@ -25,8 +25,6 @@ const xml = `
 </data>
 `;
 
-
-
 const getTimestampsByDescription = (xml, description)=>{
     // Array for matching timestamps
     const timestamps = [];
