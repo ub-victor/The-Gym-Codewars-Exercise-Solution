@@ -21,7 +21,7 @@ const xml = `
 
     <event timestamp="1614286432">
         <description>Intrusion ended</description>
-    </event>  
+    </event>
 </data>
 `;
 
